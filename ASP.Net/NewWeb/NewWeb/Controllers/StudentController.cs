@@ -26,11 +26,11 @@ namespace NewWeb.Controllers
         [HttpGet("{id}", Name = "Get")]
         public ActionResult<Student> GetById(int id)
         {
-            StreamReader r = new StreamReader(@"~/resources/Students.json");
-            string json = r.ReadToEnd();
-            List<Student> items = JsonConvert.DeserializeObject<List<Student>>(json);
-            r.Close();
-            return items.Where(x => x.Id == id).FirstOrDefault();
+            StreamReader File = new StreamReader(@"c:\users\vikas.upadhayay\source\repos\NewWeb\NewWeb\resources\Students.json");
+            string json = File.ReadToEnd();
+            List<Student> Items = JsonConvert.DeserializeObject<List<Student>>(json);
+            File.Close();
+            return Items.Where(x => x.Id == id).FirstOrDefault();
         }
 
         // POST: api/Student
@@ -64,8 +64,8 @@ namespace NewWeb.Controllers
         [HttpPut("{id}")]
         public ActionResult<string> Put(int id, [FromBody]Student value)
         {
-            StreamReader r = new StreamReader(@"c:\users\vikas.upadhayay\source\repos\NewWeb\NewWeb\resources\Students.json");
-            string json = r.ReadToEnd();
+            StreamReader File = new StreamReader(@"c:\users\vikas.upadhayay\source\repos\NewWeb\NewWeb\resources\Students.json");
+            string json = File.ReadToEnd();
             List<Student> Items = JsonConvert.DeserializeObject<List<Student>>(json);
 
             for (int i = 0; i < Items.Capacity; i++)
@@ -80,12 +80,12 @@ namespace NewWeb.Controllers
                     break;
                 }
             }
-            r.Close();
+            File.Close();
             string WriteJson = JsonConvert.SerializeObject(Items.ToArray());
             StreamWriter WriteFile = new StreamWriter(@"c:\users\vikas.upadhayay\source\repos\NewWeb\NewWeb\resources\Students.json");
             WriteFile.Write(WriteJson);
             WriteFile.Close();
-            return "Updated";
+            return "Record Updated";
         }
 
         // DELETE: api/ApiWithActions/5

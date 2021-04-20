@@ -12547,11 +12547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\vikas.upadhayay\\source\\repos\\NewWeb\\NewWeb\\NewWeb.csproj",
+      "projectUniqueName": "C:\\Users\\vikas.upadhayay\\Desktop\\BootCamp\\BootcampApril2021\\ASP.Net\\NewWeb\\NewWeb\\NewWeb.csproj",
       "projectName": "NewWeb",
-      "projectPath": "c:\\users\\vikas.upadhayay\\source\\repos\\NewWeb\\NewWeb\\NewWeb.csproj",
+      "projectPath": "C:\\Users\\vikas.upadhayay\\Desktop\\BootCamp\\BootcampApril2021\\ASP.Net\\NewWeb\\NewWeb\\NewWeb.csproj",
       "packagesPath": "C:\\Users\\vikas.upadhayay\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\vikas.upadhayay\\source\\repos\\NewWeb\\NewWeb\\obj\\",
+      "outputPath": "C:\\Users\\vikas.upadhayay\\Desktop\\BootCamp\\BootcampApril2021\\ASP.Net\\NewWeb\\NewWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
