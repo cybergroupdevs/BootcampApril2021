@@ -1,0 +1,14 @@
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\bin\Debug\netcoreapp2.1\Assignment1.deps.json
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\bin\Debug\netcoreapp2.1\Assignment1.runtimeconfig.json
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\bin\Debug\netcoreapp2.1\Assignment1.runtimeconfig.dev.json
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\bin\Debug\netcoreapp2.1\Assignment1.dll
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\obj\Debug\netcoreapp2.1\Assignment1.csprojAssemblyReference.cache
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\obj\Debug\netcoreapp2.1\Assignment1.csproj.CoreCompileInputs.cache
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\obj\Debug\netcoreapp2.1\Assignment1.RazorAssemblyInfo.cache
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\obj\Debug\netcoreapp2.1\Assignment1.RazorAssemblyInfo.cs
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\obj\Debug\netcoreapp2.1\Assignment1.AssemblyInfoInputs.cache
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\obj\Debug\netcoreapp2.1\Assignment1.AssemblyInfo.cs
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\obj\Debug\netcoreapp2.1\Assignment1.RazorTargetAssemblyInfo.cache
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\bin\Debug\netcoreapp2.1\Assignment1.pdb
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\obj\Debug\netcoreapp2.1\Assignment1.dll
+E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\obj\Debug\netcoreapp2.1\Assignment1.pdb
