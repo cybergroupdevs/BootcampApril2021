@@ -22,7 +22,6 @@ namespace NewWeb.Controllers
         }
 
         // GET: api/Student/5
-        [Route("/Student/{id}")]
         [HttpGet("{id}", Name = "Get")]
         public ActionResult<Student> GetById(int id)
         {
@@ -60,9 +59,8 @@ namespace NewWeb.Controllers
 
 
         // PUT: api/Student/5
-        [Route("/Student/{id}")]
         [HttpPut("{id}")]
-        public ActionResult<string> Put(int id, [FromBody]Student value)
+        public ActionResult<string> PutById(int id, [FromBody]Student value)
         {
             StreamReader File = new StreamReader(@"c:\users\vikas.upadhayay\source\repos\NewWeb\NewWeb\resources\Students.json");
             string json = File.ReadToEnd();
