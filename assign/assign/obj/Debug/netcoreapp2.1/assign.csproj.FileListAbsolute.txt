@@ -1,0 +1,14 @@
+C:\Users\aditya.sharma\source\repos\assign\assign\bin\Debug\netcoreapp2.1\assign.deps.json
+C:\Users\aditya.sharma\source\repos\assign\assign\bin\Debug\netcoreapp2.1\assign.runtimeconfig.json
+C:\Users\aditya.sharma\source\repos\assign\assign\bin\Debug\netcoreapp2.1\assign.runtimeconfig.dev.json
+C:\Users\aditya.sharma\source\repos\assign\assign\bin\Debug\netcoreapp2.1\assign.dll
+C:\Users\aditya.sharma\source\repos\assign\assign\bin\Debug\netcoreapp2.1\assign.pdb
+C:\Users\aditya.sharma\source\repos\assign\assign\obj\Debug\netcoreapp2.1\assign.csprojAssemblyReference.cache
+C:\Users\aditya.sharma\source\repos\assign\assign\obj\Debug\netcoreapp2.1\assign.csproj.CoreCompileInputs.cache
+C:\Users\aditya.sharma\source\repos\assign\assign\obj\Debug\netcoreapp2.1\assign.RazorAssemblyInfo.cache
+C:\Users\aditya.sharma\source\repos\assign\assign\obj\Debug\netcoreapp2.1\assign.RazorAssemblyInfo.cs
+C:\Users\aditya.sharma\source\repos\assign\assign\obj\Debug\netcoreapp2.1\assign.AssemblyInfoInputs.cache
+C:\Users\aditya.sharma\source\repos\assign\assign\obj\Debug\netcoreapp2.1\assign.AssemblyInfo.cs
+C:\Users\aditya.sharma\source\repos\assign\assign\obj\Debug\netcoreapp2.1\assign.RazorTargetAssemblyInfo.cache
+C:\Users\aditya.sharma\source\repos\assign\assign\obj\Debug\netcoreapp2.1\assign.dll
+C:\Users\aditya.sharma\source\repos\assign\assign\obj\Debug\netcoreapp2.1\assign.pdb

@@ -1,0 +1,1 @@
+﻿"[{"Id":1,"Name":"Ali","Department":"","Age":22,"College":"Bpit"},{"Id":2,"Name":"Aditya","Department":"","Age":23,"College":"Bpit"},{"Id":4,"LastName":"Himanshu","Department":"IT","Age":22,"College":"Srm"},{"Id":5,"Name":"amitabh","Department":"height","Age":78,"College":"gurukul"}]"
