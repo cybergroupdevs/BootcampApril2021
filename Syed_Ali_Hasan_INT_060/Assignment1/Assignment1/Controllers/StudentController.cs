@@ -10,6 +10,13 @@ using Newtonsoft.Json;
 
 namespace Assignment1.Controllers
 {
+    public static class Global
+    {
+        public static string getFile()
+        {
+            return @"E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\Resource\Student.json";
+        }
+    }
     [Route("api/[controller]")]
     [ApiController]
     public class StudentController : ControllerBase
@@ -25,7 +32,7 @@ namespace Assignment1.Controllers
         [HttpGet("{id}", Name = "Get")]
         public ActionResult<Student> GetStudentById(int id)
         {
-            StreamReader r = new StreamReader(@"E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\Resource\Student.json");
+            StreamReader r = new StreamReader(Global.getFile());
             string json = r.ReadToEnd();
             List<Student> items = JsonConvert.DeserializeObject<List<Student>>(json);
             var ans = items.Where(x => x.Id == id).FirstOrDefault();
@@ -37,7 +44,7 @@ namespace Assignment1.Controllers
         [Route("/api/Student/GetAllStudents")]
         public ActionResult<List<Student>> GetAllStudents()
         {
-            StreamReader r = new StreamReader(@"E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\Resource\Student.json");
+            StreamReader r = new StreamReader(Global.getFile());
             string json = r.ReadToEnd();
             List<Student> items = JsonConvert.DeserializeObject<List<Student>>(json);
             return items;
@@ -45,27 +52,25 @@ namespace Assignment1.Controllers
 
         //POST: api/Student
         [HttpPost]
-        public void Post([FromBody]Student student)
+        public void AddStudentInfo([FromBody]Student student)
         {
-            var filePath = @"E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\Resource\Student.json";
             // Read existing json data
-            var jsonData = System.IO.File.ReadAllText(filePath);
+            var jsonData = System.IO.File.ReadAllText(Global.getFile());
             // De-serialize to object or create new list
             var studentList = JsonConvert.DeserializeObject<List<Student>>(jsonData)
                                   ?? new List<Student>();
 
             studentList.Add(student);
             jsonData = JsonConvert.SerializeObject(studentList);
-            System.IO.File.WriteAllText(filePath, jsonData);
+            System.IO.File.WriteAllText(Global.getFile(), jsonData);
         }
 
         // PUT api/Student/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Student student)
+        public void UpdateStudentById(int id, [FromBody] Student student)
         {
-            var filePath = @"E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\Resource\Student.json";
             // Read existing json data
-            var jsonData = System.IO.File.ReadAllText(filePath);
+            var jsonData = System.IO.File.ReadAllText(Global.getFile());
             // De-serialize to object or create new list
             var studentList = JsonConvert.DeserializeObject<List<Student>>(jsonData)
                                   ?? new List<Student>();
@@ -83,16 +88,15 @@ namespace Assignment1.Controllers
                 }
             }
             jsonData = JsonConvert.SerializeObject(studentList);
-            System.IO.File.WriteAllText(filePath, jsonData);
+            System.IO.File.WriteAllText(Global.getFile(), jsonData);
         }
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public void DeleteStudentById(int id)
         {
-            var filePath = @"E:\BootcampApril2021\Syed_Ali_Hasan_INT_060\Assignment1\Assignment1\Resource\Student.json";
             // Read existing json data
-            var jsonData = System.IO.File.ReadAllText(filePath);
+            var jsonData = System.IO.File.ReadAllText(Global.getFile());
             // De-serialize to object or create new list
             var studentList = JsonConvert.DeserializeObject<List<Student>>(jsonData)
                                   ?? new List<Student>();
@@ -106,7 +110,7 @@ namespace Assignment1.Controllers
                 }
             }
             jsonData = JsonConvert.SerializeObject(studentList);
-            System.IO.File.WriteAllText(filePath, jsonData);
+            System.IO.File.WriteAllText(Global.getFile(), jsonData);
         }
     }
 }
