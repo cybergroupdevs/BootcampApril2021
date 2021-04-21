@@ -1,0 +1,14 @@
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\bin\Debug\netcoreapp2.1\Assessment.deps.json
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\bin\Debug\netcoreapp2.1\Assessment.runtimeconfig.json
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\bin\Debug\netcoreapp2.1\Assessment.runtimeconfig.dev.json
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\bin\Debug\netcoreapp2.1\Assessment.dll
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\bin\Debug\netcoreapp2.1\Assessment.pdb
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\obj\Debug\netcoreapp2.1\Assessment.csprojAssemblyReference.cache
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\obj\Debug\netcoreapp2.1\Assessment.csproj.CoreCompileInputs.cache
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\obj\Debug\netcoreapp2.1\Assessment.RazorAssemblyInfo.cache
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\obj\Debug\netcoreapp2.1\Assessment.RazorAssemblyInfo.cs
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\obj\Debug\netcoreapp2.1\Assessment.AssemblyInfoInputs.cache
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\obj\Debug\netcoreapp2.1\Assessment.AssemblyInfo.cs
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\obj\Debug\netcoreapp2.1\Assessment.RazorTargetAssemblyInfo.cache
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\obj\Debug\netcoreapp2.1\Assessment.dll
+c:\users\nitish.sharma\source\repos\Assessment\Assessment\obj\Debug\netcoreapp2.1\Assessment.pdb
