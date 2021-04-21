@@ -1,0 +1,17 @@
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\bin\Debug\netcoreapp2.1\NewApplication.deps.json
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\bin\Debug\netcoreapp2.1\NewApplication.runtimeconfig.json
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\bin\Debug\netcoreapp2.1\NewApplication.runtimeconfig.dev.json
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\bin\Debug\netcoreapp2.1\NewApplication.dll
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\bin\Debug\netcoreapp2.1\NewApplication.pdb
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\obj\Debug\netcoreapp2.1\NewApplication.csprojAssemblyReference.cache
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\obj\Debug\netcoreapp2.1\NewApplication.AssemblyInfoInputs.cache
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\obj\Debug\netcoreapp2.1\NewApplication.AssemblyInfo.cs
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\obj\Debug\netcoreapp2.1\NewApplication.csproj.CoreCompileInputs.cache
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\obj\Debug\netcoreapp2.1\NewApplication.RazorAssemblyInfo.cache
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\obj\Debug\netcoreapp2.1\NewApplication.RazorAssemblyInfo.cs
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\obj\Debug\netcoreapp2.1\NewApplication.RazorTargetAssemblyInfo.cache
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\obj\Debug\netcoreapp2.1\NewApplication.dll
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\obj\Debug\netcoreapp2.1\NewApplication.pdb
+C:\Users\mayank.aggarwal\source\repos\NewApplication\NewApplication\obj\Debug\netcoreapp2.1\NewApplication.genruntimeconfig.cache
