@@ -1,0 +1,30 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Ali",
+    "Department": "",
+    "Age": 22,
+    "College": "BPIT"
+  },
+  {
+    "Id": 2,
+    "Name": "Ahana",
+    "Department": "",
+    "Age": 22,
+    "College": "DTC"
+  },
+  {
+    "Id": 3,
+    "Name": "Avneet",
+    "Department": "",
+    "Age": 22,
+    "College": "DTC"
+  },
+  {
+    "Id": 4,
+    "Name": "Aditya",
+    "Department": "",
+    "Age": 22,
+    "College": "BPIT"
+  }
+]
