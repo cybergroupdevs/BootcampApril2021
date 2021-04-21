@@ -1,0 +1,14 @@
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\bin\Debug\netcoreapp2.1\AssignmentCrud.deps.json
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\bin\Debug\netcoreapp2.1\AssignmentCrud.runtimeconfig.json
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\bin\Debug\netcoreapp2.1\AssignmentCrud.runtimeconfig.dev.json
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\bin\Debug\netcoreapp2.1\AssignmentCrud.dll
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\obj\Debug\netcoreapp2.1\AssignmentCrud.csprojAssemblyReference.cache
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\obj\Debug\netcoreapp2.1\AssignmentCrud.csproj.CoreCompileInputs.cache
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\obj\Debug\netcoreapp2.1\AssignmentCrud.RazorAssemblyInfo.cache
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\obj\Debug\netcoreapp2.1\AssignmentCrud.RazorAssemblyInfo.cs
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\obj\Debug\netcoreapp2.1\AssignmentCrud.AssemblyInfoInputs.cache
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\obj\Debug\netcoreapp2.1\AssignmentCrud.AssemblyInfo.cs
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\obj\Debug\netcoreapp2.1\AssignmentCrud.RazorTargetAssemblyInfo.cache
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\bin\Debug\netcoreapp2.1\AssignmentCrud.pdb
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\obj\Debug\netcoreapp2.1\AssignmentCrud.dll
+c:\users\himanshu\source\repos\AssignmentCrud\AssignmentCrud\obj\Debug\netcoreapp2.1\AssignmentCrud.pdb
