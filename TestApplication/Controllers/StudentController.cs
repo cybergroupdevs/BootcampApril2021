@@ -61,12 +61,34 @@ namespace TestApplication.Controllers
 
         }
 
-        // PUT: api/Student/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT: api/Student/4
+        [HttpPut("{Id}")]
+        public void Put(int Id, [FromBody] Student Student)
         {
-        }
+            var filePath = @"C:\Users\bhavana.nagpal\source\repos\TestApplication\TestApplication\Resources\Student.json";
+            // Read existing json data
+            var jsonData = System.IO.File.ReadAllText(filePath);
+            // De-serialize to object or create new list
+            var studentList = JsonConvert.DeserializeObject<List<Student>>(jsonData)
+                                  ?? new List<Student>();
 
+
+            for (int i = 0; i < studentList.Capacity; i++)
+            {
+                if (studentList[i].id==Id)
+                {
+                    studentList[i].id = Student.id;
+                    studentList[i].name = Student.name;
+                    studentList[i].department = Student.department;
+                    studentList[i].age = Student.age;
+                    studentList[i].college = Student.college;
+                    break;
+                }
+            }
+            jsonData = JsonConvert.SerializeObject(studentList);
+            System.IO.File.WriteAllText(filePath, jsonData);
+        }
+        // DELETE: api/ApiWithActions/5
         // DELETE: api/ApiWithActions/5
 
         [HttpDelete("{id}")]
