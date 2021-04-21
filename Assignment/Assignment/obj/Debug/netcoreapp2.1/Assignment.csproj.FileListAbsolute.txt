@@ -1,0 +1,14 @@
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\bin\Debug\netcoreapp2.1\Assignment.deps.json
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\bin\Debug\netcoreapp2.1\Assignment.runtimeconfig.json
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\bin\Debug\netcoreapp2.1\Assignment.runtimeconfig.dev.json
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\bin\Debug\netcoreapp2.1\Assignment.dll
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\bin\Debug\netcoreapp2.1\Assignment.pdb
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.csprojAssemblyReference.cache
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.RazorAssemblyInfo.cache
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.RazorAssemblyInfo.cs
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.AssemblyInfoInputs.cache
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.AssemblyInfo.cs
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.RazorTargetAssemblyInfo.cache
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.dll
+C:\Users\avneet.kaur\source\repos\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.pdb
