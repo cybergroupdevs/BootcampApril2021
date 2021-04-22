@@ -1,0 +1,17 @@
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.1\WebApplication6.deps.json
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.1\WebApplication6.runtimeconfig.json
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.1\WebApplication6.runtimeconfig.dev.json
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.1\WebApplication6.dll
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.1\WebApplication6.pdb
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.1\WebApplication6.csprojAssemblyReference.cache
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.1\WebApplication6.AssemblyInfoInputs.cache
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.1\WebApplication6.AssemblyInfo.cs
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.1\WebApplication6.csproj.CoreCompileInputs.cache
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.1\WebApplication6.RazorAssemblyInfo.cache
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.1\WebApplication6.RazorAssemblyInfo.cs
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.1\WebApplication6.RazorTargetAssemblyInfo.cache
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.1\WebApplication6.dll
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.1\WebApplication6.pdb
+C:\Users\phalguni.dhamija\source\repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.1\WebApplication6.genruntimeconfig.cache
