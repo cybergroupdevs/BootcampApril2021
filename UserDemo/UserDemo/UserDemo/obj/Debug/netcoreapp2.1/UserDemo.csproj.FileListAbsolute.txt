@@ -1,0 +1,14 @@
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\bin\Debug\netcoreapp2.1\UserDemo.deps.json
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\bin\Debug\netcoreapp2.1\UserDemo.runtimeconfig.json
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\bin\Debug\netcoreapp2.1\UserDemo.runtimeconfig.dev.json
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\bin\Debug\netcoreapp2.1\UserDemo.dll
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\bin\Debug\netcoreapp2.1\UserDemo.pdb
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\obj\Debug\netcoreapp2.1\UserDemo.csprojAssemblyReference.cache
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\obj\Debug\netcoreapp2.1\UserDemo.csproj.CoreCompileInputs.cache
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\obj\Debug\netcoreapp2.1\UserDemo.RazorAssemblyInfo.cache
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\obj\Debug\netcoreapp2.1\UserDemo.RazorAssemblyInfo.cs
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\obj\Debug\netcoreapp2.1\UserDemo.AssemblyInfoInputs.cache
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\obj\Debug\netcoreapp2.1\UserDemo.AssemblyInfo.cs
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\obj\Debug\netcoreapp2.1\UserDemo.RazorTargetAssemblyInfo.cache
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\obj\Debug\netcoreapp2.1\UserDemo.dll
+C:\Users\aditya.sharma\source\repos\UserDemo\UserDemo\obj\Debug\netcoreapp2.1\UserDemo.pdb
