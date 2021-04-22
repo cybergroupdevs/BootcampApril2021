@@ -1,0 +1,14 @@
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\bin\Debug\netcoreapp2.1\UserAssignment.deps.json
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\bin\Debug\netcoreapp2.1\UserAssignment.runtimeconfig.json
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\bin\Debug\netcoreapp2.1\UserAssignment.runtimeconfig.dev.json
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\bin\Debug\netcoreapp2.1\UserAssignment.dll
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\obj\Debug\netcoreapp2.1\UserAssignment.csproj.CoreCompileInputs.cache
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\obj\Debug\netcoreapp2.1\UserAssignment.RazorAssemblyInfo.cache
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\obj\Debug\netcoreapp2.1\UserAssignment.RazorAssemblyInfo.cs
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\obj\Debug\netcoreapp2.1\UserAssignment.AssemblyInfoInputs.cache
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\obj\Debug\netcoreapp2.1\UserAssignment.AssemblyInfo.cs
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\obj\Debug\netcoreapp2.1\UserAssignment.RazorTargetAssemblyInfo.cache
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\bin\Debug\netcoreapp2.1\UserAssignment.pdb
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\obj\Debug\netcoreapp2.1\UserAssignment.csprojAssemblyReference.cache
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\obj\Debug\netcoreapp2.1\UserAssignment.dll
+C:\Users\syed.hasan\source\repos\UserAssignment\UserAssignment\obj\Debug\netcoreapp2.1\UserAssignment.pdb
