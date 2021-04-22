@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1> Users</h1>
+        <!-- <button onclick="FetchData()">Fetch User</button> -->
+        <button type="button" class="btn btn-success" onclick="FetchData()">Fetch Data</button>
+        <!-- <button onclick="AddUser()">Add User</button> -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Add User
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Enter Details</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                     <label for="fname">FirstName</label><br/> <input type="text" id="fname"><br/><br/>
+                     <label for="lname">LastName</label> <br/><input type="text" id="lname"><br/><br/>
+                     <label for="age">Age</label> <br/><input type="text" id="age"><br/><br/>
+                     <label for="add">Address</label><br/> <input type="text" id="add"><br/><br/>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="AddUser()">Add</button>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- Modal 2-->
+           <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="Modal2Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="Modal2Label">Enter Details To Update</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                      <div id="hide"></div>
+                     <label for="fname2">FirstName</label><br/> <input type="text" id="fname2"><br/><br/>
+                     <label for="lname2">LastName</label> <br/><input type="text" id="lname2"><br/><br/>
+                     <label for="age2">Age</label> <br/><input type="text" id="age2"><br/><br/>
+                     <label for="add2">Address</label><br/> <input type="text" id="add2"><br/><br/>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="updateUser()">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/><br/>
+        <table id="users"></table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
