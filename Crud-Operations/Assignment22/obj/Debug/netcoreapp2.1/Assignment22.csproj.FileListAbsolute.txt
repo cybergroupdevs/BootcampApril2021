@@ -1,0 +1,14 @@
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\bin\Debug\netcoreapp2.1\Assignment22.deps.json
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\bin\Debug\netcoreapp2.1\Assignment22.runtimeconfig.json
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\bin\Debug\netcoreapp2.1\Assignment22.runtimeconfig.dev.json
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\bin\Debug\netcoreapp2.1\Assignment22.dll
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\bin\Debug\netcoreapp2.1\Assignment22.pdb
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\obj\Debug\netcoreapp2.1\Assignment22.csprojAssemblyReference.cache
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\obj\Debug\netcoreapp2.1\Assignment22.csproj.CoreCompileInputs.cache
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\obj\Debug\netcoreapp2.1\Assignment22.RazorAssemblyInfo.cache
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\obj\Debug\netcoreapp2.1\Assignment22.RazorAssemblyInfo.cs
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\obj\Debug\netcoreapp2.1\Assignment22.AssemblyInfoInputs.cache
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\obj\Debug\netcoreapp2.1\Assignment22.AssemblyInfo.cs
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\obj\Debug\netcoreapp2.1\Assignment22.RazorTargetAssemblyInfo.cache
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\obj\Debug\netcoreapp2.1\Assignment22.dll
+C:\Users\priyam.sharma\source\Assignment21st\Assignment22\Assignment22\obj\Debug\netcoreapp2.1\Assignment22.pdb
