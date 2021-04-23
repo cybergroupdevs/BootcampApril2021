@@ -10,7 +10,7 @@ using Assignment.Models;
 
 
 namespace Assignment.Controllers
-{
+{ 
     [Route("api/[controller]")]
     [ApiController]
     public class StudentDataController : ControllerBase
