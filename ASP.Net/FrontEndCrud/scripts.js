@@ -25,7 +25,7 @@ fetch(url,{
             <td>  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                
             <div  class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" id="${data}" onclick=Update(${TempUser.id})>Update</button>
+              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" id="${data}" onclick=Update(${TempUser.id},'${TempUser.firstName}','${TempUser.lastName}','${TempUser.address}','${TempUser.city}')>Update</button>
               
             </div>
             <div class="btn-group" role="group" aria-label="Third group">
@@ -73,11 +73,16 @@ function addUser(){
 }
 
 
-function Update(id){
+function Update(id,mfname,mlname,maddress,mcity){
     var TempFname=document.getElementById("Modalfname");
     var TempLname=document.getElementById("Modallname");
     var TempAddress=document.getElementById("Modaladdress");
     var TempCity=document.getElementById("Modalcity");
+
+    TempFname.value = mfname;
+    TempLname.value = mlname;
+    TempAddress.value = maddress;
+    TempCity.value = mcity;
 
     var ubutton = document.getElementById("updateButton");
     ubutton.addEventListener("click", function(){
