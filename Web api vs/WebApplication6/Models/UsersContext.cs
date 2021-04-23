@@ -16,6 +16,7 @@ namespace WebApplication6.Models
         }
 
         public virtual DbSet<UsersTable> UsersTable { get; set; }
+        public virtual DbSet<LoginUser> LoginUser { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -43,6 +44,18 @@ namespace WebApplication6.Models
                 entity.Property(e => e.LastName)
                     .HasMaxLength(255)
                     .IsUnicode(false);
+            });
+            modelBuilder.Entity<LoginUser>(entity =>
+            {
+                entity.ToTable("loginUser");
+
+                entity.Property(e => e.Email)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+
+                entity.Property(e => e.Password)
+                .HasMaxLength(20)
+                .IsUnicode(false);
             });
         }
     }

@@ -119,7 +119,7 @@ function deleteUser(ids){
 }
 function update(ids)
 {
-    console.log(ids);
+    
     var TempFname = document.getElementById("mfname");
   var TempLname = document.getElementById("mlname");
   var TempAge = document.getElementById("mage" );
