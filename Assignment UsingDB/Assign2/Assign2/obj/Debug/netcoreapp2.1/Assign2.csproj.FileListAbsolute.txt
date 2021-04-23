@@ -1,0 +1,14 @@
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\bin\Debug\netcoreapp2.1\Assign2.deps.json
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\bin\Debug\netcoreapp2.1\Assign2.runtimeconfig.json
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\bin\Debug\netcoreapp2.1\Assign2.runtimeconfig.dev.json
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\bin\Debug\netcoreapp2.1\Assign2.dll
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\bin\Debug\netcoreapp2.1\Assign2.pdb
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\obj\Debug\netcoreapp2.1\Assign2.csprojAssemblyReference.cache
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\obj\Debug\netcoreapp2.1\Assign2.csproj.CoreCompileInputs.cache
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\obj\Debug\netcoreapp2.1\Assign2.RazorAssemblyInfo.cache
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\obj\Debug\netcoreapp2.1\Assign2.RazorAssemblyInfo.cs
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\obj\Debug\netcoreapp2.1\Assign2.AssemblyInfoInputs.cache
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\obj\Debug\netcoreapp2.1\Assign2.AssemblyInfo.cs
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\obj\Debug\netcoreapp2.1\Assign2.RazorTargetAssemblyInfo.cache
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\obj\Debug\netcoreapp2.1\Assign2.dll
+C:\Users\anurag.sharma\source\repos\Assign2\Assign2\obj\Debug\netcoreapp2.1\Assign2.pdb
