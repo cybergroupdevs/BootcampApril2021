@@ -30,7 +30,13 @@ namespace Assignment22.Controllers
             return Ok("User Details Added successfully");
         }
 
-
+        [HttpGet]
+        [Route("GetUser/{id}")]
+        public ActionResult GetUser(int id)
+        {
+            var student = _context.UserInfo.FirstOrDefault(stud=>stud.Id==id);
+            return Ok(student);
+        }
 
         [HttpGet]
         public ActionResult GetAllUsers()

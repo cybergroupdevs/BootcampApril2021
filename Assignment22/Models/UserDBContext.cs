@@ -16,6 +16,8 @@ namespace Assignment22.Models
         }
 
         public virtual DbSet<UserInfo> UserInfo { get; set; }
+        public virtual DbSet<Userslogin> Userslogin { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -42,6 +44,19 @@ namespace Assignment22.Models
                     .HasMaxLength(255)
                     .IsUnicode(false);
             });
+             modelBuilder.Entity<Userslogin>(entity =>
+             {
+                 entity.Property(e => e.UserName)
+                     .HasMaxLength(255)
+                     .IsUnicode(false);
+
+                 entity.Property(e => e.Password)
+                     .HasMaxLength(255)
+                     .IsUnicode(false);
+
+    
+             }
+            );
         }
     }
 }
