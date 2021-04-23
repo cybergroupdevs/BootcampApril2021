@@ -1,0 +1,14 @@
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\bin\Debug\netcoreapp2.1\UserApplication.deps.json
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\bin\Debug\netcoreapp2.1\UserApplication.runtimeconfig.json
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\bin\Debug\netcoreapp2.1\UserApplication.runtimeconfig.dev.json
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\bin\Debug\netcoreapp2.1\UserApplication.dll
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\obj\Debug\netcoreapp2.1\UserApplication.csprojAssemblyReference.cache
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\obj\Debug\netcoreapp2.1\UserApplication.csproj.CoreCompileInputs.cache
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\obj\Debug\netcoreapp2.1\UserApplication.RazorAssemblyInfo.cache
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\obj\Debug\netcoreapp2.1\UserApplication.RazorAssemblyInfo.cs
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\obj\Debug\netcoreapp2.1\UserApplication.AssemblyInfoInputs.cache
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\obj\Debug\netcoreapp2.1\UserApplication.AssemblyInfo.cs
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\obj\Debug\netcoreapp2.1\UserApplication.RazorTargetAssemblyInfo.cache
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\bin\Debug\netcoreapp2.1\UserApplication.pdb
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\obj\Debug\netcoreapp2.1\UserApplication.dll
+C:\Users\arpit.sharma\source\repos\AjaxCall\AjaxCall\obj\Debug\netcoreapp2.1\UserApplication.pdb
