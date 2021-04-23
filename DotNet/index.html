@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+   
+</head>
+<body>
+         <table class="table table-stripped"style="margin: 10vw; width:80%;padding: 10px;">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th >FirstName</th> 
+                    <th>LastName</th>
+                    <th>Age</th> 
+                    <th>Address</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="users"> 
+
+            </tbody>
+         </table>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Update new User!!</h4>
+        </div>
+        <div class="modal-body">
+       
+  <label for="fname">First name:</label><br>
+  <input type="text" id="Modalfname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="Modallname" name="lname" value=""><br>
+   <label for="fname">Age:</label><br>
+  <input type="text" id="Modalage" name="age" value=""><br>
+   <label for="fname">Address:</label><br>
+  <input type="text" id="Modaladdress" name="address" value=""><br><br>
+  <input type="submit" value="Update"id="Updatebut">
+ </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+<div style="text-align: center;">
+    <h1>ADD USERSS!!</h1>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value=""><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value=""><br>
+<label for="fname">Age:</label><br>
+<input type="text" id="age" name="age" value=""><br>
+<label for="fname">Address:</label><br>
+<input type="text" id="address" name="address" value=""><br><br>
+<button class="btn btn-warning"onclick="addUser()">ADD USER!!</button>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>

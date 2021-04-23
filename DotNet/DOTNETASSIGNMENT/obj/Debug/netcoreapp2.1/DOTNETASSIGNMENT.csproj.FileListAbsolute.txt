@@ -1,0 +1,14 @@
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\bin\Debug\netcoreapp2.1\DOTNETASSIGNMENT.deps.json
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\bin\Debug\netcoreapp2.1\DOTNETASSIGNMENT.runtimeconfig.json
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\bin\Debug\netcoreapp2.1\DOTNETASSIGNMENT.runtimeconfig.dev.json
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\bin\Debug\netcoreapp2.1\DOTNETASSIGNMENT.dll
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\obj\Debug\netcoreapp2.1\DOTNETASSIGNMENT.csprojAssemblyReference.cache
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\obj\Debug\netcoreapp2.1\DOTNETASSIGNMENT.csproj.CoreCompileInputs.cache
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\obj\Debug\netcoreapp2.1\DOTNETASSIGNMENT.RazorAssemblyInfo.cache
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\obj\Debug\netcoreapp2.1\DOTNETASSIGNMENT.RazorAssemblyInfo.cs
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\obj\Debug\netcoreapp2.1\DOTNETASSIGNMENT.AssemblyInfoInputs.cache
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\obj\Debug\netcoreapp2.1\DOTNETASSIGNMENT.AssemblyInfo.cs
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\obj\Debug\netcoreapp2.1\DOTNETASSIGNMENT.RazorTargetAssemblyInfo.cache
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\bin\Debug\netcoreapp2.1\DOTNETASSIGNMENT.pdb
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\obj\Debug\netcoreapp2.1\DOTNETASSIGNMENT.dll
+C:\Users\bhavana.nagpal\source\repos\DOTNETASSIGNMENT\DOTNETASSIGNMENT\obj\Debug\netcoreapp2.1\DOTNETASSIGNMENT.pdb
