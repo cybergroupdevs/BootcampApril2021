@@ -12549,11 +12549,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bhanuja.aggarwal\\source\\repos\\UserAPI\\UserAPI\\UserAPI.csproj",
+      "projectUniqueName": "C:\\Users\\bhanuja.aggarwal\\Desktop\\BootcampApril2021\\UserFormUpdate Assignment\\dot net\\UserAPI\\UserAPI\\UserAPI.csproj",
       "projectName": "UserAPI",
-      "projectPath": "C:\\Users\\bhanuja.aggarwal\\source\\repos\\UserAPI\\UserAPI\\UserAPI.csproj",
+      "projectPath": "C:\\Users\\bhanuja.aggarwal\\Desktop\\BootcampApril2021\\UserFormUpdate Assignment\\dot net\\UserAPI\\UserAPI\\UserAPI.csproj",
       "packagesPath": "C:\\Users\\bhanuja.aggarwal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bhanuja.aggarwal\\source\\repos\\UserAPI\\UserAPI\\obj\\",
+      "outputPath": "C:\\Users\\bhanuja.aggarwal\\Desktop\\BootcampApril2021\\UserFormUpdate Assignment\\dot net\\UserAPI\\UserAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
