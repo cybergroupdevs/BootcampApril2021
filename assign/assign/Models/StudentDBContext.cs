@@ -16,7 +16,7 @@ namespace assign.Models
         }
 
         public virtual DbSet<StudentInfo> StudentInfo { get; set; }
-
+        //public virtual DbSet<UserLogin>UserLogin { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -46,6 +46,16 @@ namespace assign.Models
                     .HasMaxLength(255)
                     .IsUnicode(false);
             });
+           //modelBuilder.Entity<UserLogin>(entity =>
+           // {
+            //    entity.Property(e => e.UserName)
+              //      .HasMaxLength(255)
+                //    .IsUnicode(false);
+
+                //entity.Property(e => e.Password)
+                  //  .HasMaxLength(255)
+                    //.IsUnicode(false);
+            //});
         }
     }
 }

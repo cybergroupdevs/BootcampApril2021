@@ -23,11 +23,17 @@ namespace assign.Controllers
     }
         // GET: api/StudentDB
         [HttpGet]
-        public IActionResult GetStudents()
+        public ActionResult GetAllStudent()
         {
             var studentList = _Context.StudentInfo.ToList();
-            return Ok(studentList); 
+            return Ok(studentList);
         }
+        //[HttpGet]
+        //public IActionResult GetStudents()
+        //{
+         //   var studentList = _Context.StudentInfo.ToList();
+           // return Ok(studentList);
+        //}
 
         // GET: api/StudentDB/5
         [HttpGet("{id}")]
@@ -38,17 +44,25 @@ namespace assign.Controllers
         }
 
         // POST: api/StudentDB
+        //[HttpPost]
+        //public IActionResult AddStudent([FromBody]studentRequest student)
+        // {
+        /*  StudentInfo studentInfo = new StudentInfo();
+          studentInfo.FirstName = student.FirstName;
+          studentInfo.LastName = student.LastName;
+          studentInfo.Address = student.Address;
+          studentInfo.City = student.City;
+          _Context.StudentInfo.Add(studentInfo);
+          _Context.SaveChanges();
+          return Ok("Student Added successfully");
+      }*/
+
         [HttpPost]
-        public IActionResult AddStudent([FromBody]studentRequest student)
+        public ActionResult AddStudent([FromBody] StudentInfo student)
         {
-            StudentInfo studentInfo = new StudentInfo();
-            studentInfo.FirstName = student.FirstName;
-            studentInfo.LastName = student.LastName;
-            studentInfo.Address = student.Address;
-            studentInfo.City = student.City;
-            _Context.StudentInfo.Add(studentInfo);
+            _Context.StudentInfo.Add(student);
             _Context.SaveChanges();
-            return Ok("Student Added successfully");
+            return Ok("Students Details Added successfully");
         }
 
         // PUT: api/StudentDB/5

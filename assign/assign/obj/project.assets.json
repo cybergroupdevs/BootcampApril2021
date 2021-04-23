@@ -12564,9 +12564,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\srishti.sharma\\source\\repos\\assign\\assign\\assign.csproj",
-      "projectName": "assign",
-      "projectPath": "C:\\Users\\srishti.sharma\\source\\repos\\assign\\assign\\assign.csproj",
+      "projectUniqueName": "C:\\Users\\srishti.sharma\\source\\repos\\assign\\assign\\Assignment.csproj",
+      "projectName": "Assignment",
+      "projectPath": "C:\\Users\\srishti.sharma\\source\\repos\\assign\\assign\\Assignment.csproj",
       "packagesPath": "C:\\Users\\srishti.sharma\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\srishti.sharma\\source\\repos\\assign\\assign\\obj\\",
       "projectStyle": "PackageReference",

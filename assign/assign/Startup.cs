@@ -20,6 +20,7 @@ namespace assign
     {
         public Startup(IConfiguration configuration)
         {
+
             Configuration = configuration;
         }
 
@@ -29,7 +30,10 @@ namespace assign
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddDbContext<StudentDBContext>(o => o.UseSqlServer("server =CRG325; database = StudentDB; Trusted_Connection = True; "));
+            services.AddDbContext<StudentDBContext>(o => o.UseSqlServer("server =CYG325; database = StudentDB; Trusted_Connection = True; "));
+            services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
+                                                                    .AllowAnyMethod()
+                                                                     .AllowAnyHeader()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,6 +49,7 @@ namespace assign
             }
 
             app.UseHttpsRedirection();
+            app.UseCors(b => b.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
             app.UseMvc();
         }
     }
