@@ -1,29 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using UserDemo.DbModels;
+using UserDemo.Models;
 
 namespace UserDemo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    
+
     public class UserController : ControllerBase
     {
         StudentDBContext _context;
 
+        
+
         public UserController(StudentDBContext context)
         {
             _context = context;
+            
         }
 
 
+        
+
+      
         // GET: api/User
         [HttpGet]
+        [Authorize]
         public ActionResult Get()
         {
             var user = _context.StudentInfo.ToList();
@@ -39,7 +52,7 @@ namespace UserDemo.Controllers
         }
 
         // POST: api/User
-        
+
         [HttpPost]
         public ActionResult Add([FromBody] UserRequest userRequest)
         {
