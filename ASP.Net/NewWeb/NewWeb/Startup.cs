@@ -29,6 +29,9 @@ namespace NewWeb
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<StudentDBContext>(o => o.UseSqlServer("Server=CYG298;Database=StudentDB;Trusted_Connection=True;"));
+            services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
+                                                                    .AllowAnyMethod()
+                                                                     .AllowAnyHeader()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,8 +45,8 @@ namespace NewWeb
             {
                 app.UseHsts();
             }
-
             app.UseHttpsRedirection();
+            app.UseCors(b => b.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
             app.UseMvc();
         }
     }
