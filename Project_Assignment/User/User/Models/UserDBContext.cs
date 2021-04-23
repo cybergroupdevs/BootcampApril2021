@@ -16,6 +16,7 @@ namespace User.Models
         }
 
         public virtual DbSet<UserInfo> UserInfo { get; set; }
+        public virtual DbSet<UserModel> UserModel { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -43,6 +44,17 @@ namespace User.Models
                     .IsUnicode(false);
                 entity.Property(e => e.Age)
                 .IsUnicode(false);
+            });
+            modelBuilder.Entity<UserModel>(entity =>
+            {
+                entity.Property(e => e.Username)
+                    .HasMaxLength(255)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Password)
+                    .HasMaxLength(255)
+                    .IsUnicode(false);
+
             });
         }
     }
