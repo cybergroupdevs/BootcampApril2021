@@ -1,0 +1,14 @@
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.deps.json
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.runtimeconfig.json
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.runtimeconfig.dev.json
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.dll
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.pdb
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.csproj.CoreCompileInputs.cache
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorAssemblyInfo.cache
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorAssemblyInfo.cs
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.AssemblyInfoInputs.cache
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.AssemblyInfo.cs
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorTargetAssemblyInfo.cache
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.dll
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.pdb
+C:\Users\vipul.sinha\source\repos\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.csprojAssemblyReference.cache
