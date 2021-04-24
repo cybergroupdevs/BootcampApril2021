@@ -1,0 +1,14 @@
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\bin\Debug\netcoreapp2.1\ExtractionOfData.deps.json
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\bin\Debug\netcoreapp2.1\ExtractionOfData.runtimeconfig.json
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\bin\Debug\netcoreapp2.1\ExtractionOfData.runtimeconfig.dev.json
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\bin\Debug\netcoreapp2.1\ExtractionOfData.dll
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\bin\Debug\netcoreapp2.1\ExtractionOfData.pdb
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\obj\Debug\netcoreapp2.1\ExtractionOfData.csproj.CoreCompileInputs.cache
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\obj\Debug\netcoreapp2.1\ExtractionOfData.RazorAssemblyInfo.cache
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\obj\Debug\netcoreapp2.1\ExtractionOfData.RazorAssemblyInfo.cs
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\obj\Debug\netcoreapp2.1\ExtractionOfData.AssemblyInfoInputs.cache
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\obj\Debug\netcoreapp2.1\ExtractionOfData.AssemblyInfo.cs
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\obj\Debug\netcoreapp2.1\ExtractionOfData.RazorTargetAssemblyInfo.cache
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\obj\Debug\netcoreapp2.1\ExtractionOfData.dll
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\obj\Debug\netcoreapp2.1\ExtractionOfData.pdb
+C:\Users\nitish.sharma\source\repos\ExtractionOfData\ExtractionOfData\obj\Debug\netcoreapp2.1\ExtractionOfData.csprojAssemblyReference.cache
