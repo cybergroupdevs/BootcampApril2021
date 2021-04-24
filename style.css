@@ -1,0 +1,14 @@
+#form{
+    margin: auto;
+    width: 200px;
+    height: 350px;
+    background-color: burlywood;
+    border: 2px solid brown;
+}
+.heading{
+    color: cadetblue;
+    text-align: center;
+}
+#userlist{
+    margin: auto;
+}

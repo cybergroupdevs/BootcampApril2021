@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-light" onload="getall()">
+  <div>
+   <h3 class="heading">User Details</h3>
+   <!--<button onclick="getall()" class="bg-warning" id="userlist">Users List</button>-->
+
+    <table id="users" class="table table-dark table-hover"></table>
+     
+     <div class="container">
+      <!-- Trigger the modal with a button -->
+      <!--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Update User</button>-->
+    
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title heading" >Update User</h4>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="fName">First Name:</label>
+                <input type="text" class="form-control" id="fName" placeholder="Enter First Name" name="fName">
+              </div>
+              <div class="form-group">
+                <label for="lName">Last Name:</label>
+                <input type="text" class="form-control" id="lName" placeholder="Enter Last Name" name="lName">
+              </div>
+              <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" class="form-control" id="age" placeholder="Enter Age" name="age">
+              </div>
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter Address" name="address">
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default bg-info" data-dismiss="modal" id="update1">Update User!</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+    
+    <div id="form"><center>
+      <h4>Add New User</h4>
+    <label>First Name</label>
+    <input type="text" id="firstname"><br>
+    <label>Last Name</label>
+    <input type="text" id="lastname"><br>
+    <label>Age</label>
+    <input type="text" id=age1><br>
+    <label>Address</label>
+    <input type="text" id="address1"><br>
+    <br>
+    <button onclick="addUser()" class="bg-info">Add User</button>
+  </center>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
+
