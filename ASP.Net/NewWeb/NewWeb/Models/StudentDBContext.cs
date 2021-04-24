@@ -16,6 +16,7 @@ namespace NewWeb.Models
         }
 
         public virtual DbSet<StudentInfo> StudentInfo { get; set; }
+        public virtual DbSet<AuthUser> AuthUser { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -45,6 +46,18 @@ namespace NewWeb.Models
                 entity.Property(e => e.LastName)
                     .HasMaxLength(255)
                     .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<AuthUser>(entity =>
+            {
+                entity.Property(e => e.UserName)
+                   .HasMaxLength(100)
+                   .IsUnicode(false);
+
+                entity.Property(e => e.password_)
+                   .HasMaxLength(100)
+                   .IsUnicode(false);
+
             });
         }
     }

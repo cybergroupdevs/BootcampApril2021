@@ -53,13 +53,14 @@ function addUser(){
         "Address":TempAddress.value,
         "City":TempCity.value
     }
-    console.log(TempUser);
+   
     fetch(url, {
     method: "POST",
     mode: 'cors', 
     cache: 'no-cache', 
     credentials: 'same-origin',
     headers: {
+      'Authorization':"Bearer "+ JSON.parse(localStorage.getItem("token"))['token'],
       'Content-Type': 'application/json'
     },
     redirect: 'follow', 
@@ -67,7 +68,13 @@ function addUser(){
     body: JSON.stringify(TempUser)
     })
     .then(result => {
-       alert("User added");}
+      if(result.status==200){
+        alert("Added successfully");
+        window.location.reload();}
+        else{
+          alert("Not an Authorize user");
+        }
+      }
     );
     //Get();
 }
@@ -99,6 +106,7 @@ function Update(id,mfname,mlname,maddress,mcity){
             cache: 'no-cache', 
             credentials: 'same-origin',
             headers: {
+              'Authorization':"Bearer "+ JSON.parse(localStorage.getItem("token"))['token'],
               'Content-Type': 'application/json'
             },
             redirect: 'follow', 
@@ -106,7 +114,13 @@ function Update(id,mfname,mlname,maddress,mcity){
             body: JSON.stringify(TempUser)
             })
             .then(result => {
-                alert("Updated Data");}
+              if(result.status==200){
+                alert("Updated successfully");
+                window.location.reload();}
+              else{
+                  alert("Not an Authorize user");
+                  window.location.reload();
+                }}
             );
     }, false);
 }
@@ -121,15 +135,47 @@ function Delete(id){
     cache: 'no-cache', 
     credentials: 'same-origin',
     headers: {
+      'Authorization':"Bearer "+ JSON.parse(localStorage.getItem("token"))['token'],
       'Content-Type': 'application/json'
     },
     redirect: 'follow', 
     referrerPolicy: 'no-referrer'
     })
     .then(result => {
+        if(result.status==200){
         alert("Deleted successfully");
+        window.location.reload();}
+        else{
+          alert("Not an Authorize user");
+        }
     }
     );
-    //Get();
+}
+
+function Posting(){
+  var input1 = document.getElementById("uname");
+  var input2 = document.getElementById("pass");
+  var TempUser = {
+      "UserName": input1.value,
+      "password_": input2.value
+  }
+  fetch('https://localhost:44353/api/UserAuth', {
+      method: "POST",
+      mode: 'cors', 
+      cache: 'no-cache', 
+      credentials: 'same-origin',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      redirect: 'follow', 
+      referrerPolicy: 'no-referrer',
+      body: JSON.stringify(TempUser)
+      })
+      .then(response => response.text())
+      .then((response) => {
+          var token = response;
+          console.log(typeof(token));
+          window.localStorage.setItem("token", token);
+      });
 }
 

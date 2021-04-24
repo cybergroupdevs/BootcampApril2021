@@ -9,12 +9,48 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <title>Document</title>
+    <title>Curd Opertaions</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
 </head>
 
 <body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Login
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Login Please!!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label for="uname">UserName:</label><br>
+                            <input type="text" id="uname" name="fname"><br>
+                            <label for="pass">PassWord:</label><br>
+                            <input type="password" id="pass" name="lname"><br>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" onclick="Posting()">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </div>
+
+
+
     <div>
         <h1 style="font-size: 40px;"> Users Records</h1>
         <table class="mx-5">
@@ -22,8 +58,8 @@
                 <tr>
                     <th>FirstName</th>
                     <th>LastName</th>
-                    <th>Age</th>
                     <th>Address</th>
+                    <th>City</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -52,7 +88,7 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal" id="Refresh">Close</button>
                     </div>
                 </div>
 

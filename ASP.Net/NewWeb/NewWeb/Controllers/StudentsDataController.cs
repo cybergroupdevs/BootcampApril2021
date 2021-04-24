@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+//using System.Web.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NewWeb.Models;
@@ -36,6 +38,7 @@ namespace NewWeb.Controllers
 
         // POST: api/StudentsData
         [HttpPost]
+        [Authorize]
         public IActionResult Post([FromBody]StudentRequest Temp)
         {
             StudentInfo student_one = new StudentInfo();
@@ -50,6 +53,7 @@ namespace NewWeb.Controllers
 
         // PUT: api/StudentsData/5
         [HttpPut("{id}")]
+        [Authorize]
         public IActionResult UpdateByID(int id, [FromBody]StudentRequest Temp)
         {
             StudentInfo student_one = _Context.StudentInfo.FirstOrDefault(Student => Student.Id == id);
@@ -64,6 +68,7 @@ namespace NewWeb.Controllers
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
+        [Authorize]
         public IActionResult Delete(int id)
         {
             var student_one = _Context.StudentInfo.FirstOrDefault(Student => Student.Id == id);
