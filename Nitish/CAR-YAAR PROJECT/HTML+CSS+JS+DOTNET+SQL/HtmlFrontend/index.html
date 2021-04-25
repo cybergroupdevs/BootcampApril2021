@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&family=Fugaz+One&family=Montserrat&family=Questrial&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>CAR YAAR</title>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR  -->
+
+<div style="text-align: left; align-items: left; ">
+    <nav
+      class="navbar navbar-expand navbar-dark"
+      style="background-color: #232629;"
+      role="navigation"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <!-- - mx-auto
+            m - for classes that set margin
+            x - for classes that set both *-left and *-right
+            auto - for classes that set the margin to auto -->
+          <ul
+            class="navbar-nav mx-auto"
+            style="align-items: center; justify-content: center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#home" style="font-family: Bebas Neue; font-size: 20px;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"style="font-family: Bebas Neue; font-size: 20px;">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services"style="font-family: Bebas Neue; font-size: 20px;">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#livework"style="font-family: Bebas Neue; font-size: 20px;">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"style="font-family: Bebas Neue; font-size: 20px;">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+    <!-- HEADER  -->
+
+    <div style="text-align: center; margin-bottom: 5rem">
+      <h1 style="font-weight: bold; font-family: Fugaz One">
+        WELCOME TO <br />CAR-YAAR
+      </h1>
+      <h4 style="font-family: Bai Jamjuree">YOUR CAR'S FAVOURITE PLACE</h4>
+    </div>
+
+    <!-- HEADER END  -->
+
+    <!-- CAROUSEL START  -->
+
+    <div class="container" style="margin-bottom: 15vw; width: 100vw">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="./HEADER (1).png" alt="Los Angeles" style="width: 100%" />
+          </div>
+
+          <div class="item">
+            <img src="./HEADER (2).png" alt="Chicago" style="width: 100%" />
+          </div>
+
+          <div class="item">
+            <img src="./HEADER (3).png" alt="New york" style="width: 100%" />
+          </div>
+
+          <div class="item">
+            <img src="./HEADER (4).png" alt="New york" style="width: 100%" />
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- ABOUT SECTION  -->
+    <div>
+      <section
+        class="aboutsection"
+        id="about"
+        class="well-sm text-center"
+        data-type="anchor"
+      >
+        <div class="container" style="font-family: Montserrat">
+          <h3 class="primary-color">ABOUT US</h3>
+
+          <h1 style="font-weight: bold">
+            "WE MAKE YOUR CAR LIKE NEVER BEFORE"
+          </h1>
+
+          <p style="font-size: 20px">
+            At CAR-YAAR, we offer a wide variety of car services from periodic
+            car servicing, car washing, car coating, wheel balancing and
+            alignment, denting and even car repairs under insurance. Quite
+            literally everything your car needs.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- about section ends  -->
+
+    <!-- SERVICE SECTION  -->
+
+    <div>
+      <section
+        class="servicesection"
+        id="services"
+        class="well-sm text-center"
+        data-type="anchor"
+      >
+        <div class="container" style="font-family: Montserrat">
+          <h3 class="primary-color" style="text-align: center">OUR SERVICES</h3>
+
+          <h1 style="font-weight: bold">1. CAR SERVICE</h1>
+          <h1 style="font-weight: bold">2. FIVE MIN CHECKUP</h1>
+          <h1 style="font-weight: bold">3. CAR WASH</h1>
+          <h1 style="font-weight: bold">4. USED CAR INSPECTION</h1>
+          <h1 style="font-weight: bold">5. AC REPAIR</h1>        
+          <h1 style="font-weight: bold">6. CERAMIC COATING</h1>
+          
+          <h4 style="font-weight: bold; text-align: center; padding: 2rem; ">NEED ONE OF THEM? CLICK... <a  href="#contact"><button class="btn" style="color: rgb(255, 255, 255); background-color: rgb(23, 168, 235);">BOOK NOW!</button></a></h4>
+        
+      </div>
+      </section>
+    </div>
+
+    <h1 class="h1" style="font-family: Montserrat; padding: 1rem" id="livework">
+      CURRENT WORKSHOP STATUS
+    </h1>
+    <div>
+      <table
+        class="containertable"
+        style="width: 80%; margin: 10vw; margin-top: 1vw"
+      >
+        <thead>
+          <tr>
+            <th style="text-align: center; font-family: Questrial">No.</th>
+            <th style="text-align: center; font-family: Questrial">Model</th>
+            <th style="text-align: center; font-family: Questrial">
+              REGISTRATION
+            </th>
+            <th style="text-align: center; font-family: Questrial">
+              DIESEL/PETROL
+            </th>
+            <th style="text-align: center; font-family: Questrial">
+              SERVICE/WASHING
+            </th>
+            <th style="text-align: center; font-family: Questrial">STATUS</th>
+          </tr>
+        </thead>
+        <tbody id="user"></tbody>
+      </table>
+
+      <!-- <li></li> -->
+      <div class="cent" style="margin-bottom: 7vh">
+        <h2 style="text-align: center; font-family: Montserrat">NEW ENTRY!</h2>
+        <div>
+          <form style="text-align: center; margin-bottom: 10vh" class="form1">
+            <label for="fname">MODEL</label><br />
+            <input
+              class="form_input"
+              type="text"
+              id="fname"
+              name="fname"
+              value=""
+            /><br />
+            <label for="lname">REGISTRATION </label><br />
+            <input
+              class="form_input"
+              type="text"
+              id="lname"
+              name="lname"
+              value=""
+            /><br />
+            <label for="address">DIESEL/PETROL</label><br />
+            <input
+              class="form_input"
+              type="text"
+              id="address"
+              name="address"
+              value=""
+            /><br />
+            <label for="city">SERVICE/WASHING</label><br />
+            <input
+              class="form_input"
+              type="text"
+              id="city"
+              name="city"
+              value=""
+            /><br />
+            <br />
+            <input
+              type="button"
+              class="btn btn-primary"
+              value="NEW CAR HERE"
+              onclick="Adduser()"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding-top: 3rem">
+      <div class="container contact-form" id="contact">
+        <form>
+          <h3 style="font-weight: bolder;">BOOK A SERVICE NOW</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  type="form_input"
+                  id="contactname"
+                  name="txtName"
+                  class="form-control"
+                  placeholder="Your Name *"
+                  value=""
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="form_input"
+                  id="contactemail"
+                  name="txtEmail"
+                  class="form-control"
+                  placeholder="Your Email *"
+                  value=""
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="form_input"
+                  id="contactphone"
+                  name="txtPhone"
+                  class="form-control"
+                  placeholder="Your Phone Number *"
+                  value=""
+                />
+              </div>
+              <div class="form-check1">
+                <input class="form-check-input" type="checkbox" value="car service" id="carservice" onclick="carservice()">
+                <label class="form-check-label" style="font-family: Montserrat" for="flexCheckIndeterminate" >CAR SERVICE</label> <br>
+                <input class="form-check-input" type="checkbox" value="5 min checkup" id="fivemin">
+                <label class="form-check-label" style="font-family: Montserrat" for="flexCheckIndeterminate">5 MIN CHECKUP</label> <br>
+                <input class="form-check-input" type="checkbox" value="car wash" id="carwash" >
+                <label class="form-check-label" style="font-family: Montserrat" for="flexCheckIndeterminate" >CAR WASH</label> <br>
+                <input class="form-check-input" type="checkbox" value="" id="usedcar">
+                <label class="form-check-label" style="font-family: Montserrat" for="flexCheckIndeterminate" >USED CAR INSPECTION</label> <br>
+                <input class="form-check-input" type="checkbox" value="" id="acrepair">
+                <label class="form-check-label" style="font-family: Montserrat" for="flexCheckIndeterminate">AC REPAIR</label> <br>
+                <input class="form-check-input" type="checkbox" value="" id="ceramic">
+                <label class="form-check-label" style="font-family: Montserrat" for="flexCheckIndeterminate" >CERAMIC COATING</label> <br>
+              </div>
+                <button
+                  type="submit"
+                  name="btnSubmitclass"
+                  class="btnContact"
+                  value="Send"
+                  onclick="Addcontact()"
+                >
+                  Submit
+                </button>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea
+                  name="form_input"
+                  id="contactabout"
+                  class="form-control"
+                  placeholder="Tell us about your car *"
+                  style="width: 100%; height: 130px"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="containermodel">
+        <!-- MODEL FOR UPDATING DETAILS OF USER data-toggle="modal" data-target="#myModal"  -->
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog" >
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                <h4 class="modal-title">INVOICE GENERATOR</h4>
+              </div>
+
+              <div class="modal-body form">
+                <form class="form2" action="">
+                  <label for="fname">MODEL</label><br />
+                  <input
+                    type="text"
+                    id="modelform"
+                    name="fname"
+                    value=""
+                  /><br />
+                  <label for="lname">REGISTRATION</label><br />
+                  <input
+                    type="text"
+                    id="regform"
+                    name="lname"
+                    value=""
+                  /><br />
+                  <label for="lname">WORK DONE</label><br />
+                  <input
+                    type="text"
+                    id="workform"
+                    name="lname"
+                    value=""
+                  /><br />
+                  <label for="lname">AMOUNT TO PAY!</label><br />
+                  <input
+                    type="text"
+                    id="Modelscity"
+                    name="lname"
+                    value=""
+                  /><br />
+                  <br />
+                  <button
+                    type="button"
+                    value="Update"
+                    ,
+                    id="mybtnupdate"
+                    onclick="window.print()"
+                  >
+                    PRINT BILL
+                  </button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-default"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer  -->
+
+    <section class="">
+      <!-- Footer -->
+      <footer class="text-center text-white" style="background-color: #272727">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0"></div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2021 Copyright:
+          <a class="text-white">NITISH SHARMA</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
