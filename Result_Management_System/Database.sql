@@ -4,3 +4,6 @@ Create table loginInfo(firstname varchar(50),lastname varchar(50),email varchar(
 SELECT * FROM loginInfo;
 Insert into loginInfo values('Saksham','Grover','sakshamgrover@gmail.com','saksham123');
 create table StudInfo(Id int primary key,Name varchar(50),English int,Hindi int,Spansih int,Mathematics int,Science int);
+Select * From loginInfo;
+Insert into loginInfo values('Varun','Sharma','varunsharma@gmail.com','varun123');
+Delete From loginInfo where FirstName='';

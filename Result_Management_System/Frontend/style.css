@@ -51,5 +51,17 @@ form {
   display: inline-block;
   font-size: 16px;
   border-radius: 8px;
-  margin-left: 40px;
+  /* margin-left: 2px; */
+}
+#btt2{
+    background-color: crimson; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    /* margin-left: 2px; */
 }

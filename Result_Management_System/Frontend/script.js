@@ -259,3 +259,29 @@ function deleteUser(id){
         }
             );
 }
+function SignUp(){
+    var newHeaders=new Headers();
+    newHeaders.append("Authorization", "Bearer "+localStorage.getItem("result-token"));
+    newHeaders.append("Content-Type", "application/json");
+    var fname=document.getElementById("fname");
+    var lname=document.getElementById("lname");
+    var e=document.getElementById("e");
+    var pass=document.getElementById("pass");
+    var User={
+        "FirstName":fname.value,
+        "LastName":lname.value,
+        "Email":e.value,
+        "Password":pass.value
+    }
+    console.log(User);
+fetch("https://localhost:44365/api/signup", {
+method: "POST",
+mode: 'cors', // no-cors, *cors, same-origin
+cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+credentials: 'same-origin', // include, *same-origin, omit
+headers: newHeaders,
+redirect: 'follow', // manual, *follow, error
+referrerPolicy: 'no-referrer',
+body: JSON.stringify(User)
+});
+}
