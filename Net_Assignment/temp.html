@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Doubt</title>
+  </head>
+
+  <body onload="getDoubts()">
+    <div>
+      <h1 style="font-size: 40px">I have a doubt</h1>
+
+      <table>
+        <caption>
+          Statement Summary
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Date-Time</th>
+            <th scope="col">Doubt</th>
+            <th scope="col">Resolver</th>
+            <th scope="col">Solution</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody id="userTable"></tbody>
+      </table>
+      <!-- <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Date-Time</th>
+            <th>Doubt</th>
+            <th>Resolver</th>
+            <th>Solution</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="userTable"></tbody>
+      </table> -->
+    </div>
+    <div style="padding-top: 1%">
+      <h3 style="font-size: 30px">Add user</h3>
+      <form>
+        <label for="nameInput">Name:</label><br />
+        <input type="text" id="nameInput" name="nameInput" /><br />
+
+        <label for="doubtInput">Doubt:</label><br />
+        <textarea cols="30" rows="5" id="doubtInput"></textarea><br />
+
+        <label for="resolverInput">Resolver:</label><br />
+        <input type="text" id="resolverInput" name="resolverInput" /><br />
+        <br />
+        <button type="button" onclick="addDoubt()">Add User</button>
+      </form>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- doubtView start -->
+<div id="doubtView">
+  <div class="offset container mt-3 mb-5 text-center">
+    <h1 style="font-size: 40px">Doubt List</h1>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Date-Time</th>
+          <th scope="col">Doubt</th>
+          <th scope="col">Resolver</th>
+          <th scope="col">Solution</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody id="userTable"></tbody>
+    </table>
+  </div>
+</div>
+<!-- doubtView END -->

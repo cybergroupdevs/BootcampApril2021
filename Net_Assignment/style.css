@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Marck+Script&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 6rem;
+}
+
+/* Navbar Starts */
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 14px;
+  /* font-weight: The font-weight property sets how thick or thin characters in text should be displayed. */
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  /* red green blue alpha 
+  alpha The opacity property in CSS specifies how transparent an element is.
+   ... Values are a number from 0 to 1 representing the opacity of the 
+   channel (the “alpha” channel). When an element has a value of 0 the 
+   element is completely invisible; a value of 1 is completely opaque (solid).
+  */
+  /* !important to tell bootstrap that this background is more important */
+  background: rgba(0, 0, 0, 0.6) !important;
+  /* 20px from top and bottom but 0 px from left and right */
+  padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-left: 20px;
+}
+
+/* The :active selector is used to select and style the active link. */
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff9248;
+  font-size: 110%;
+}
+
+/* Navbar Ends */
+
+/*Main Page Middle*/
+
+.heading-content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.heading-content h5 {
+  font-size: 4em;
+  font-weight: 300;
+  color: white;
+  font-family: monospace;
+}
+
+.heading-content h1 {
+  font-size: 5em;
+  font-weight: bolder;
+  color: white;
+  font-family: "Monteserrat", sans-serif;
+}
+
+.heading-content h2 {
+  font-size: 2em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Caveat", cursive;
+}
+
+/*Main Page Middle*/
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 0.35em;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 767px) {
+  /* tablet */
+  .offset:before {
+    display: block;
+    content: "";
+    height: 3rem;
+  }
+
+  .navbar {
+    letter-spacing: 0.1rem;
+    padding: 10px 0;
+  }
+
+  .heading-content {
+    position: absolute;
+    top: 15%;
+  }
+
+  .heading-content h5 {
+    font-size: 3em;
+  }
+
+  .heading-content h1 {
+    font-size: 3em;
+  }
+
+  .heading-content h2 {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* Phone */
+  .offset:before {
+    display: block;
+    content: "";
+    height: 3rem;
+  }
+  .navbar {
+    letter-spacing: 0.05rem;
+    padding: 7px 0;
+  }
+
+  .heading-content {
+    position: absolute;
+    top: 9%;
+  }
+
+  .heading-content h5 {
+    font-size: 2em;
+  }
+
+  .heading-content h1 {
+    font-size: 2em;
+  }
+
+  .heading-content h2 {
+    font-size: 0.7em;
+  }
+}
+
+textarea {
+  max-width: 100%;
+  max-height: 100%;
+}

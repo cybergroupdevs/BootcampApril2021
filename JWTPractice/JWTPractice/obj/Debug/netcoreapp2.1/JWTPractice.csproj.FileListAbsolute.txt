@@ -1,0 +1,14 @@
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\bin\Debug\netcoreapp2.1\JWTPractice.deps.json
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\bin\Debug\netcoreapp2.1\JWTPractice.runtimeconfig.json
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\bin\Debug\netcoreapp2.1\JWTPractice.runtimeconfig.dev.json
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\bin\Debug\netcoreapp2.1\JWTPractice.dll
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\obj\Debug\netcoreapp2.1\JWTPractice.csprojAssemblyReference.cache
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\obj\Debug\netcoreapp2.1\JWTPractice.csproj.CoreCompileInputs.cache
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\obj\Debug\netcoreapp2.1\JWTPractice.RazorAssemblyInfo.cache
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\obj\Debug\netcoreapp2.1\JWTPractice.RazorAssemblyInfo.cs
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\obj\Debug\netcoreapp2.1\JWTPractice.AssemblyInfoInputs.cache
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\obj\Debug\netcoreapp2.1\JWTPractice.AssemblyInfo.cs
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\obj\Debug\netcoreapp2.1\JWTPractice.RazorTargetAssemblyInfo.cache
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\bin\Debug\netcoreapp2.1\JWTPractice.pdb
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\obj\Debug\netcoreapp2.1\JWTPractice.dll
+C:\Users\syed.hasan\source\repos\JWTPractice\JWTPractice\obj\Debug\netcoreapp2.1\JWTPractice.pdb
