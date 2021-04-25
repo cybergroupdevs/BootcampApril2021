@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flight Details</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./main.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+        <nav class="navbar navbar-light justify-content-between" style="background-color: #e3f2fd;" id="flot">
+            <a class="navbar-brand mx-5" href="#"><b>Airline Management</b></a>
+            <button class="navbar-toggler" style="outline: none;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mx-5">
+                        <a class="nav-link dropdown-toggle btn btn-outline-info" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Users
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item btn btn-ligh" data-toggle="modal" data-target="#Signin" href="#">Sign in</a>
+                            <a class="dropdown-item btn btn-ligh" data-toggle="modal" data-target="#Signup" href="#">Sign up</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+      
+          <!--Modal for Signin-->
+          <div class="modal fade" id="Signin" tabindex="-1" role="dialog" aria-labelledby="SigninTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Sign In!!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="background:#A7B8FF">
+                        <form id="frm1">
+                            <div class="input-box">
+                                <label for="SigninUsername" class="label">Enter Username</label>
+                                <input type="text" class="form-control" id="SigninUsername" aria-describedby="emailHelp"
+                                    placeholder="Enter Username" required>
+                                <small id="emailHelp" class="form-text text-muted imp">We'll never share your username with anyone
+                                    else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="SiginPassword1">Password</label>
+                                <input type="password" class="form-control" id="SiginPassword1" placeholder="Password" required>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" onclick="Signin()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <!--Modal for Signup-->
+        <div class="modal fade" id="Signup" tabindex="-1" role="dialog" aria-labelledby="SignupTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="SignupTitle">Sign Up</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="background:#A7B8FF">
+                        <form>
+                            <div class="input-box">
+                                <label for="SignupUsername" class="label">Username</label>
+                                <input type="text" class="form-control" id="SignupUsername" aria-describedby="emailHelp"
+                                    placeholder="Enter Username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="SigupPassword1" class="label">Password</label>
+                                <input type="password" class="form-control" id="SigupPassword1" placeholder="Password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Email" class="label">Email</label>
+                                <input type="email" class="form-control" id="SigupEmail" placeholder="Email" required>
+                                <small id="emailHelp" class="form-text text-muted imp">We'll never share your email with anyone
+                                    else.</small>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="overflow-x:auto;">
+      <table  class="table table-hover">
+          <thead>
+            <tr>
+                <th scope="col">Flight Id</th>
+                <th scope="col">Flight Name</th>
+                <th scope="col">Source</th>            
+                <th scope="col">Destination</th>
+                
+                <th scope="col">No. of Seats</th>
+                <th scope="col">Departure</th>
+                <th scope="col">Arrival</th>
+                <th scope="col">Charges</th>
+                <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="userTable">
+              <!-- <tr>
+                  <th scope="row">1</th>
+                  <td>ACG03841</td>
+                  <td>Chandigarh (IXR)</td>
+                  <td>Delhi (DEL)</td>
+                  
+                  <td>03</td>
+                  <td>16-03-2021 1600</td>
+                  <td>16-03-2021 1800</td>
+                  <td>₹ 8995/-</td>
+                  <td><button type="button" class="btn btn-success">Update</button>
+                    <button type="button" class="btn btn-danger">Delete</button></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>ACG03841</td>
+                <td>Chandigarh (IXR)</td>
+                <td>Delhi (DEL)</td>
+                
+                <td>03</td>
+                <td>16-03-2021 1600</td>
+                <td>16-03-2021 1800</td>
+                <td>₹ 8995/-</td>
+            </tr> -->
+          </tbody>
+      </table>
+    </div>
+  <div class="register">
+                  <div class="row">
+                      <div class="col-md-3 register-left">
+                          <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                          <h3>Welcome</h3>
+                          <p>Fill the form to continue</p>
+                          <div class="form-group">Flight ID:<br>
+                            <input type="text" class="center" placeholder="Flight ID *" value="" />
+                          </div>
+                        <input type="submit" class="search" name="" value="Fetch"/><br>
+                      </div>
+                      <div class="col-md-9 register-right">
+                              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                  <h3 class="register-heading">Flight Details</h3>
+                                  <div class="row register-form">
+                                      <div class="col-md-6">
+                                          <div class="form-group">Flight Name:
+                                              <input type="text" class="form-control" placeholder="Flight Name *" id="fname" value="" />
+                                          </div>
+                                          <div class="form-group">Source:
+                                              <input type="text" class="form-control" placeholder="Source *" id="source" value="" />
+                                          </div>
+                                          <div class="form-group">Destination:
+                                              <input type="text" class="form-control" placeholder="Destination *" id="dest" value="" />
+                                          </div>
+                                          <div class="form-group">No. of Seats:
+                                            <input type="text" class="form-control" placeholder="No. of Seats *" id="seats" value="" />
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                          <div class="form-group">Departure:
+                                              <input type="text" class="form-control" placeholder="Departure Time *" id="depar" value="" />
+                                          </div>
+                                          <div class="form-group">Arrival:
+                                              <input type="text" class="form-control" placeholder="Arrival Time *" id="arrival" value="" />
+                                          </div>
+                                          <div class="form-group">Flight Charges:
+                                            <input type="text" class="form-control" placeholder="Flight Charges *" id="charges" value="" />
+                                        </div> 
+                                        <input type="submit" class="btnRegister1"  value="Add Flight" onclick="addUser()">
+                                        <!-- <input type="submit" class="btnRegister2"  value="Update"/>
+                                        <input type="submit" class="btnRegister3"  value="Delete"/> -->
+                                      </div>
+                                  </div>
+                          </div>
+                      </div>
+                  </div>
+  
+              </div>
+<script src="script.js"></script>
+</body>
+</html>
