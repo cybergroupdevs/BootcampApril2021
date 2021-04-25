@@ -1,0 +1,14 @@
+c:\users\user\source\repos\assignment-net1\assignment-net1\bin\Debug\netcoreapp2.1\assignment-net1.deps.json
+c:\users\user\source\repos\assignment-net1\assignment-net1\bin\Debug\netcoreapp2.1\assignment-net1.runtimeconfig.json
+c:\users\user\source\repos\assignment-net1\assignment-net1\bin\Debug\netcoreapp2.1\assignment-net1.runtimeconfig.dev.json
+c:\users\user\source\repos\assignment-net1\assignment-net1\bin\Debug\netcoreapp2.1\assignment-net1.dll
+c:\users\user\source\repos\assignment-net1\assignment-net1\obj\Debug\netcoreapp2.1\assignment-net1.csprojAssemblyReference.cache
+c:\users\user\source\repos\assignment-net1\assignment-net1\obj\Debug\netcoreapp2.1\assignment-net1.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\assignment-net1\assignment-net1\obj\Debug\netcoreapp2.1\assignment-net1.RazorAssemblyInfo.cache
+c:\users\user\source\repos\assignment-net1\assignment-net1\obj\Debug\netcoreapp2.1\assignment-net1.RazorAssemblyInfo.cs
+c:\users\user\source\repos\assignment-net1\assignment-net1\obj\Debug\netcoreapp2.1\assignment-net1.AssemblyInfoInputs.cache
+c:\users\user\source\repos\assignment-net1\assignment-net1\obj\Debug\netcoreapp2.1\assignment-net1.AssemblyInfo.cs
+c:\users\user\source\repos\assignment-net1\assignment-net1\obj\Debug\netcoreapp2.1\assignment-net1.RazorTargetAssemblyInfo.cache
+c:\users\user\source\repos\assignment-net1\assignment-net1\bin\Debug\netcoreapp2.1\assignment-net1.pdb
+c:\users\user\source\repos\assignment-net1\assignment-net1\obj\Debug\netcoreapp2.1\assignment-net1.dll
+c:\users\user\source\repos\assignment-net1\assignment-net1\obj\Debug\netcoreapp2.1\assignment-net1.pdb
