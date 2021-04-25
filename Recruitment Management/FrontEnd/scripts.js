@@ -204,8 +204,7 @@ function SignIn(){
         }
         var frm = document.getElementById("signin-form");
         frm.reset();
-        document.getElementById("signinchange").innerHTML = `<div><p>Your are Login!!</p>
-        <button type="button">Logout</button></div>`
+        document.getElementById("signinchange").innerHTML = `<div><p>Your are Login!!</p></div>`
     });
 }
 

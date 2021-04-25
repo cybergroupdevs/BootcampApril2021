@@ -52,7 +52,7 @@ namespace Rmsportal.Controllers
 
         // PUT: api/Portal/5
         [HttpPut("{id}")]
-        
+        [Authorize]
         public IActionResult Put(int id, [FromBody]RmsRequest temp)
         {
             RmsInfo InfoUpdate = _Context.RmsInfo.FirstOrDefault(x => x.Id == id);
