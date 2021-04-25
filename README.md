@@ -4,7 +4,7 @@
 > DOUBT CAN ONLY BE REMOVED BY ACTION.
 
 
-<img src="https://github.com/AliCYGRP/MyPortfolio/blob/master/img/CYGRP_Assignment/Login.PNG" height= "300" width="700" alt="accessibility text">
+<img src="https://github.com/cybergroupdevs/BootcampApril2021/blob/ALI_INT_060/Images/Login.PNG" height= "300" width="700" alt="accessibility text">
 
 **I have a doubt!** is CYGRP's Query Management System that allows CYGRP employees to view, ask and resolve doubt all at one place. Some advantages are as follows: 
 
