@@ -28,7 +28,7 @@ namespace RestroOwners.Controllers
         }
 
 
-        // POST: api/Login
+        // POST: api/RestroOwner
 
         [HttpPost]
         public ActionResult AddUser([FromBody] OwnerModel userModel)
