@@ -20,7 +20,7 @@ Car-yaar uses a number of technologies to work properly:
 - [.DOT NET FRAMEWORK] - Framework for designing backend
 - [ASP .NET] - technology in backend
 - Visual studio 2017 and Visual studio code
-- [Linq] - implemented in javascript
+- [Linq] - implemented in .NET Framework.
 
 ## Installation
 
@@ -46,7 +46,9 @@ search for tablescode.txt
 ## Now, Launch Visual Studio Code
 - open project file directory named "HTML Frontend"
 
-## YOU ARE DONE WITH ALL DIFFICULT PARTS
+# YOU ARE DONE WITH ALL DIFFICULT PARTS
+
+### Last step...
 
 - Run LoginPage.html
 - Create new user 
@@ -65,7 +67,7 @@ search for tablescode.txt
 
 ## Issues?
 Raise me a issue, or feel free to contact 
-sharma.nitish72@gmail.com
+nitish.sharma@cygrp.com
 
 ## THANKS FOR USING CAR-YAAR :)
 
