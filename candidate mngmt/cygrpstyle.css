@@ -1,0 +1,111 @@
+.first-division{
+    height: 800px;
+    /* background-image: url('https://i.pinimg.com/736x/e9/06/6f/e9066fa2804c326739cdd1951ca2d20c.jpg'); */
+    background-image: url('https://wallpaperaccess.com/full/1236679.jpg');
+    /* background-image: url('https://thumbs.dreamstime.com/b/wooden-cubes-words-hiring-yellow-light-bulb-beautiful-orange-background-business-concept-copy-space-197326219.jpg'); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* opacity: 0.5; */
+}
+h1{
+    
+    color:white;
+    position: absolute; 
+    left: 15vw; 
+    top: 30vh; 
+    font-family:garamond;
+    font-size: 3.5rem;
+}
+h2{
+    color: white;
+    text-align: right;
+    position:absolute;
+    left: 15vw;
+    top: 40vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+#logo{
+    display:block; 
+    height: 25vh; 
+    width: 18vw; 
+    margin-left:auto;
+    margin-right: auto; 
+    padding-top: 2vh ;
+}
+
+.salesforce{
+    height: 13vh;
+    width:15vw; 
+    display:block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-top: 70vh; 
+    opacity: 0.9;
+}
+
+.row a{
+    display:inline;
+    color: white;
+    float:left;
+    font-size: 17px;
+    padding: 16px;
+    text-decoration:none;
+    text-align:center;
+}
+ul{
+    list-style-type: none;
+    overflow:hidden;
+}
+ li a { 
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.row a:hover{
+    background-color:rgb(212, 69, 16);
+}
+
+.second-division{
+    height:100vh;
+    background-size: auto;
+    background-color:rgb(212, 69, 16);
+}
+.second-main{
+    position:relative;
+    /* top: 135vh; */
+    /* left: 40vw; */
+}
+.second-nonmain{
+    position:absolute;
+    font-family: cursive;
+    top: 150px;
+    left:10px;
+}
+svg{
+    width:30%;
+  }
+
+#query{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#foot{
+    background-image: url('https://wallpaperaccess.com/full/1236679.jpg');
+    background-size: cover;
+}
+
+#second-heading{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+ 
+
+ 

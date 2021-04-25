@@ -1,0 +1,44 @@
+body{
+    background-color: lightpink;
+
+}
+.P{
+    color: hsla(100, 34, 67, 90);
+}
+
+.myP{
+    color:red;
+}
+.YP{
+    color: hsla(100, 34, 67, 90);;
+}
+
+html{
+    font-family:  'Pacifico', cursive;
+}
+
+ .my-para{
+    font-family:'Roboto', sans-serif;
+    padding-top: 300px;
+    padding-left: 100px;
+    border:blue; border-width:10px; border-style:outset;
+} 
+
+#new{
+    color: blue;
+}
+#new2{
+    color:green;
+}
+
+#division1{
+    background-color: indigo;
+    width: 50%;
+    height: 100%;
+    background-image: ;
+}
+#division2{
+    background-color: lawngreen;
+    width: 50%;
+    height: 100%;
+}
