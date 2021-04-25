@@ -8,10 +8,9 @@ At CAR-YAAR, we offer a wide variety of car services from periodic car servicing
 - LOGIN UI + LANDING PAGE (EASY TO USE DESIGN)
 - Show live data using MSSQL.
 - All HTTP Methods are enabled.
-- This project is a perfect combination of frontend and backend.
 
 ## Tech
-Dillinger uses a number of open source projects to work properly:
+Car-yaar uses a number of technologies to work properly:
 
 - [HTML] - HTML enhanced for web design!
 - [CSS] - awesome creativity
