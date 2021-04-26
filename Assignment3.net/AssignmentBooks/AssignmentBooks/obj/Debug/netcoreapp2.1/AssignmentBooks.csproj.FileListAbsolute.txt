@@ -1,0 +1,14 @@
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\bin\Debug\netcoreapp2.1\AssignmentBooks.deps.json
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\bin\Debug\netcoreapp2.1\AssignmentBooks.runtimeconfig.json
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\bin\Debug\netcoreapp2.1\AssignmentBooks.runtimeconfig.dev.json
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\bin\Debug\netcoreapp2.1\AssignmentBooks.dll
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\bin\Debug\netcoreapp2.1\AssignmentBooks.pdb
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\obj\Debug\netcoreapp2.1\AssignmentBooks.csprojAssemblyReference.cache
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\obj\Debug\netcoreapp2.1\AssignmentBooks.csproj.CoreCompileInputs.cache
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\obj\Debug\netcoreapp2.1\AssignmentBooks.RazorAssemblyInfo.cache
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\obj\Debug\netcoreapp2.1\AssignmentBooks.RazorAssemblyInfo.cs
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\obj\Debug\netcoreapp2.1\AssignmentBooks.AssemblyInfoInputs.cache
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\obj\Debug\netcoreapp2.1\AssignmentBooks.AssemblyInfo.cs
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\obj\Debug\netcoreapp2.1\AssignmentBooks.RazorTargetAssemblyInfo.cache
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\obj\Debug\netcoreapp2.1\AssignmentBooks.dll
+C:\Users\divyanshu.goyal\source\repos\AssignmentBooks\AssignmentBooks\obj\Debug\netcoreapp2.1\AssignmentBooks.pdb
