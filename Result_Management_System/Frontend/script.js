@@ -64,8 +64,8 @@ function FetchData(){
         <div id="${user.id}" class="collapse">
         <table>
         <th><td class="a">English</td><td class="a">Hindi</td><td class="a">Spanish</td><td class="a">Mathematics</td><td class="a">Science</td><td style="background-color:aqua;">Percentage</td></th>
-        <tr><td></td><td class="a">${user.english}</td><td class="a">${user.hindi}</td><td class="a">${user.spanish}</td><td class="a">${user.mathematics}</td><td class="a">${user.science}</td><td style="background-color:aqua;">${eval((user.english+user.hindi+user.spanish+user.mathematics+user.science)/5)}%</td><td><button type="button" data-toggle="modal" data-target="#Modal2" class="btn btn-dark" onclick="edit(${user.id})">Edit</button>&nbsp;&nbsp;<button type="button" class="btn btn-danger" onclick="deleteUser(${user.id})">Delete</button></td></tr>
-        </table>
+<tr><td></td><td class="a">${user.english}</td><td class="a">${user.hindi}</td><td class="a">${user.spanish}</td><td class="a">${user.mathematics}</td><td class="a">${user.science}</td><td style="background-color:aqua;">${eval((user.english+user.hindi+user.spanish+user.mathematics+user.science)/5)}%</td><td><i class="fa fa-edit" data-toggle="modal" data-target="#Modal2" onclick="edit(${user.id})" style="font-size:30px"></i>&nbsp;&nbsp;<i class="fa fa-trash"style="font-size:30px;color:red;" onclick="deleteUser(${user.id})"></i></td></tr>
+</table>
         </div><br/><br/>`;
      });
      document.getElementById("div1").innerHTML=li;
@@ -121,8 +121,8 @@ body: JSON.stringify(User)
         <div id="${user.id}" class="collapse">
         <table>
         <th><td class="a">English</td><td class="a">Hindi</td><td class="a">Spanish</td><td class="a">Mathematics</td><td class="a">Science</td><td style="background-color:aqua;">Percentage</td></th>
-        <tr><td></td><td class="a">${user.english}</td><td class="a">${user.hindi}</td><td class="a">${user.spanish}</td><td class="a">${user.mathematics}</td><td class="a">${user.science}</td><td style="background-color:aqua;">${eval((user.english+user.hindi+user.spanish+user.mathematics+user.science)/5)}%</td><td><button type="button" data-toggle="modal" data-target="#Modal2" class="btn btn-dark" onclick="edit(${user.id})">Edit</button>&nbsp;&nbsp;<button type="button" class="btn btn-danger" onclick="deleteUser(${user.id})">Delete</button></td></tr>
-        </table>
+<tr><td></td><td class="a">${user.english}</td><td class="a">${user.hindi}</td><td class="a">${user.spanish}</td><td class="a">${user.mathematics}</td><td class="a">${user.science}</td><td style="background-color:aqua;">${eval((user.english+user.hindi+user.spanish+user.mathematics+user.science)/5)}%</td><td><i class="fa fa-edit" data-toggle="modal" data-target="#Modal2" onclick="edit(${user.id})" style="font-size:30px"></i>&nbsp;&nbsp;<i class="fa fa-trash"style="font-size:30px;color:red;" onclick="deleteUser(${user.id})"></i></td></tr>
+</table>
         </div><br/><br/>`;
      });
      document.getElementById("div1").innerHTML=li;
@@ -206,8 +206,8 @@ function edit(id){
             <div id="${user.id}" class="collapse">
             <table>
             <th><td class="a">English</td><td class="a">Hindi</td><td class="a">Spanish</td><td class="a">Mathematics</td><td class="a">Science</td><td style="background-color:aqua;">Percentage</td></th>
-            <tr><td></td><td class="a">${user.english}</td><td class="a">${user.hindi}</td><td class="a">${user.spanish}</td><td class="a">${user.mathematics}</td><td class="a">${user.science}</td><td style="background-color:aqua;">${eval((user.english+user.hindi+user.spanish+user.mathematics+user.science)/5)}%</td><td><button type="button" data-toggle="modal" data-target="#Modal2" class="btn btn-dark" onclick="edit(${user.id})">Edit</button>&nbsp;&nbsp;<button type="button" class="btn btn-danger" onclick="deleteUser(${user.id})">Delete</button></td></tr>
-            </table>
+<tr><td></td><td class="a">${user.english}</td><td class="a">${user.hindi}</td><td class="a">${user.spanish}</td><td class="a">${user.mathematics}</td><td class="a">${user.science}</td><td style="background-color:aqua;">${eval((user.english+user.hindi+user.spanish+user.mathematics+user.science)/5)}%</td><td><i class="fa fa-edit" data-toggle="modal" data-target="#Modal2" onclick="edit(${user.id})" style="font-size:30px"></i>&nbsp;&nbsp;<i class="fa fa-trash"style="font-size:30px;color:red;" onclick="deleteUser(${user.id})"></i></td></tr> 
+</table>
             </div><br/><br/>`;
          });
          document.getElementById("div1").innerHTML=li;
@@ -250,8 +250,8 @@ function deleteUser(id){
                 <div id="${user.id}" class="collapse">
                 <table>
                 <th><td class="a">English</td><td class="a">Hindi</td><td class="a">Spanish</td><td class="a">Mathematics</td><td class="a">Science</td><td style="background-color:aqua;">Percentage</td></th>
-                <tr><td></td><td class="a">${user.english}</td><td class="a">${user.hindi}</td><td class="a">${user.spanish}</td><td class="a">${user.mathematics}</td><td class="a">${user.science}</td><td style="background-color:aqua;">${eval((user.english+user.hindi+user.spanish+user.mathematics+user.science)/5)}%</td><td><button type="button" data-toggle="modal" data-target="#Modal2" class="btn btn-dark" onclick="edit(${user.id})">Edit</button>&nbsp;&nbsp;<button type="button" class="btn btn-danger" onclick="deleteUser(${user.id})">Delete</button></td></tr>
-                </table>
+<tr><td></td><td class="a">${user.english}</td><td class="a">${user.hindi}</td><td class="a">${user.spanish}</td><td class="a">${user.mathematics}</td><td class="a">${user.science}</td><td style="background-color:aqua;">${eval((user.english+user.hindi+user.spanish+user.mathematics+user.science)/5)}%</td><td><i class="fa fa-edit" data-toggle="modal" data-target="#Modal2" onclick="edit(${user.id})" style="font-size:30px"></i>&nbsp;&nbsp;<i class="fa fa-trash"style="font-size:30px;color:red;" onclick="deleteUser(${user.id})"></i></td></tr>
+</table>
                 </div><br/><br/>`;
              });
              document.getElementById("div1").innerHTML=li;
