@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+:root{
+  --pink:#d46191;
+  --white:#e4edf1;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  border:none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: all .2s linear;
+}
+
+*::selection{
+  background-color: rgb(19, 18, 18);
+  color:rgb(218, 207, 207);
+}
+
+.logo,.nav{
+    background-color: black;
+}
+.nav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+section{
+  overflow: hidden;
+}
+
+.button{
+  height:3.5rem;
+  width: 15rem;
+  background:var(--pink);
+  color:rgb(19, 18, 18);
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  border-radius: .5rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin:1rem 0;
+}
+
+.button::before{
+  content: '';
+  position: absolute;
+  top: -100%; left: 0;
+  height:100%;
+  width: 100%;
+  background-color: var(--white);
+  z-index: -1;
+  transition: .2s linear;
+}
+
+.button:hover:before{
+  top: 0%;
+}
+
+.button:hover{
+  box-shadow: .1rem .5rem var(--pink),
+              0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.heading{
+  text-align: center;
+  font-size: 4rem;
+  padding:1rem;
+  padding-top: 8rem;
+  color:var(--white);
+}
+
+.heading span{
+  color:var(--pink);
+}
+
+header{
+  width:100%;
+  position: fixed;
+  top:0; left: 0;
+  padding:2rem 1rem;
+  z-index: 1000;
+}
+
+.header-active{
+  background:#fff;
+  box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+  padding: .5rem 1rem;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a{
+  color:var(--white);
+}
+
+header a:hover{
+  color:var(--pink);
+}
+
+header .container .logo{
+  font-size: 3rem;
+}
+
+header .container .logo span{
+  color:var(--pink);
+}
+
+header .nav ul{
+  margin:0; padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header .nav ul li{
+  margin: 0 1rem;
+}
+
+header .nav ul li a{
+  font-size: 2rem;
+}
+
+header .fa-bars{
+  font-size: 3.5rem;
+  color:var(--blue);
+  cursor: pointer;
+  display: none;
+}
+
+
+.about{
+    background:rgb(19, 18, 18);
+  }
+  
+  .about .content .box{
+    margin:3rem 0;
+  }
+  
+  .about .content .box h3{
+    font-size: 2.5rem;
+    color:var(--white);
+  }
+  
+  .about .content .box h3 i{
+    padding: 0 1rem;
+    color:var(--pink);
+  }
+  
+  .about .content .box p{
+    font-size: 1.7rem;
+    padding-left: 6rem;
+    color:#666;
+  }
+  .contact{
+    background:var(--white);
+  }
+  
+  .contact .heading{
+    color:rgb(19, 18, 18);
+  }
+  
+  /* .contact form{
+    text-align: center;
+  } */
+  button-group{
+      color: var(--pink);
+    tab-size: 50vw;
+    size: inherit;
+    box-sizing: content-box;
+font-family: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap';
+  }
+  
+  
+ /*css added for hamburger*/ 
+ .topnav {
+  overflow: hidden;
+  background-color: black;
+  color: black;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color:white;
+  color: pink;
+}
+
+/* css end for hamburger*/
+/* media queries  */
+
+@media (max-width:768px){
+
+    html{
+      font-size: 55%;
+    }
+  
+    header .fa-bars{
+      display: block;
+    }
+  
+    header .nav{
+      position: fixed;
+      top:-100rem; left:50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 0 0 100vh rgba(0,0,0,.3);
+      border-radius: .5rem;
+      border:.3rem solid var(--pink) !important;
+      background:rgb(19, 18, 18);
+      width: 95%;
+      opacity: 0;
+    }
+  
+    header .nav ul{
+      width: 100%;
+      flex-flow: column;
+      padding:2rem 0;
+    }
+  
+    header .nav ul li{
+      width: 100%;
+      text-align: center;
+      margin:1rem 0;
+    }
+  
+    header .nav ul li a{
+      font-size: 3rem;
+      display: block;
+    }
+}
