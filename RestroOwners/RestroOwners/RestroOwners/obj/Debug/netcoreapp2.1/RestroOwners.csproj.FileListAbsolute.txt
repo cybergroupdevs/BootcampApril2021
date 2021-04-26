@@ -3,7 +3,6 @@ C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\bin\Debug\netcorea
 C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\bin\Debug\netcoreapp2.1\RestroOwners.runtimeconfig.dev.json
 C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\bin\Debug\netcoreapp2.1\RestroOwners.dll
 C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\bin\Debug\netcoreapp2.1\RestroOwners.pdb
-C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\obj\Debug\netcoreapp2.1\RestroOwners.csprojAssemblyReference.cache
 C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\obj\Debug\netcoreapp2.1\RestroOwners.csproj.CoreCompileInputs.cache
 C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\obj\Debug\netcoreapp2.1\RestroOwners.RazorAssemblyInfo.cache
 C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\obj\Debug\netcoreapp2.1\RestroOwners.RazorAssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\obj\Debug\netcorea
 C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\obj\Debug\netcoreapp2.1\RestroOwners.RazorTargetAssemblyInfo.cache
 C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\obj\Debug\netcoreapp2.1\RestroOwners.dll
 C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\obj\Debug\netcoreapp2.1\RestroOwners.pdb
+C:\Users\aditya.sharma\source\repos\RestroOwners\RestroOwners\obj\Debug\netcoreapp2.1\RestroOwners.csprojAssemblyReference.cache

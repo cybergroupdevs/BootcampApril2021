@@ -9,6 +9,7 @@ using RestroOwners.DbModels;
 
 namespace RestroOwners.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class RestroController : ControllerBase
@@ -25,7 +26,7 @@ namespace RestroOwners.Controllers
         }
 
         // GET: api/Restro
-        [Authorize]
+        
         [HttpGet]
         public ActionResult Get()
         {
@@ -45,8 +46,8 @@ namespace RestroOwners.Controllers
         
         
         [HttpPost]
-        [Authorize]
-        public ActionResult Add([FromBody] RestrosRequest userRequest)
+        
+        public ActionResult AddUser([FromBody] RestrosRequest userRequest)
         {
             Restros restros = new Restros()
             {
@@ -61,7 +62,7 @@ namespace RestroOwners.Controllers
         }
 
         // PUT: api/Restro/5
-        [Authorize]
+        
         [HttpPut("{id}")]
         public ActionResult Edit(int id, [FromBody] RestrosRequest userRequest)
         {
@@ -75,7 +76,7 @@ namespace RestroOwners.Controllers
         }
 
         // DELETE: api/ApiWithActions/5
-        [Authorize]
+        
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {

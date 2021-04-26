@@ -9,7 +9,7 @@ namespace RestroOwners.DbModels
     {
         public string RName { get; set; }
         public string RAddress { get; set; }
-        public int RPhone { get; set; }
+        public string RPhone { get; set; }
         public string RType { get; set; }
     }
 }
