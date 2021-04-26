@@ -227,3 +227,9 @@ function openLinkedin() {
 function openGithub() {
   window.open("https://github.com/AliCYGRP/", "_blank");
 }
+
+function logout() {
+  window.localStorage.setItem("token", "false");
+  alert("Logout successful");
+  window.open("http://127.0.0.1:5500/LoginPage/index.html", "_blank");
+}
