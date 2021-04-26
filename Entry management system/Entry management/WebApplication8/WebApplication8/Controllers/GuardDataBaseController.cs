@@ -21,7 +21,7 @@ namespace WebApplication8.Controllers
         }
         // GET: api/<GuardDataBaseController>
         [HttpGet]
-       [Authorize]
+        [Authorize]
         public IActionResult GetAllEntries()
         {
             var entries = _context.Entries.ToList();

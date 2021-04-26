@@ -3,6 +3,7 @@ fetch('https://localhost:44317/api/GuardDataBase',{
     cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
     credentials: 'same-origin', // include, *same-origin, omit
     headers: {
+      'Authorization': 'Bearer ' + (window.localStorage.getItem("token")),
       'Content-Type': 'application/json'
       // 'Content-Type': 'application/x-www-form-urlencoded',
     },
@@ -10,8 +11,8 @@ fetch('https://localhost:44317/api/GuardDataBase',{
     referrerPolicy: 'no-referrer'
 }
 )
-.then(res => res.json())
-.then(data => {
+  .then(res => res.json())
+  .then(data => {
     let li = "";
             data.forEach(TempUser => {
                // console.log(user);
@@ -25,7 +26,7 @@ fetch('https://localhost:44317/api/GuardDataBase',{
                
            
             <div class="btn-group" role="group" aria-label="Third group">
-              <button type="button" class="btn btn-primary" onclick="deleteUser(${TempUser.id})">Delete</button></td>
+              <button type="button" class="btn btn-primary" onclick="deleteUser(${TempUser.id})"><i class="fas fa-trash-alt"></i></button></td>
             </tr>`;
     });
     document.getElementById("userTable").innerHTML = li;
@@ -108,33 +109,107 @@ function deleteUser(ids){
         }
     }).then(data => console.log("deleted"+" "+data));
 }
-function postInfo(){
-    var Templogin=document.getElementById("login");
-    var Temppass=document.getElementById("passw");
+// function postInfo(){
+//     var Templogin=document.getElementById("login");
+//     var Temppass=document.getElementById("passw");
    
-    var TempUser={
-        "Email":Templogin.value,
-        "Passwrd":Temppass.value,
-    }
-    console.log(TempUser);
-    fetch("https://localhost:44317/api/Login", {
-    method: "POST",
-    mode: 'cors', // no-cors, *cors, same-origin
-    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-    credentials: 'same-origin', // include, *same-origin, omit
-    headers: {
-      'Content-Type': 'application/json'
-      // 'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    redirect: 'follow', // manual, *follow, error
-    referrerPolicy: 'no-referrer',
-    body: JSON.stringify(TempUser)
+//     var TempUser={
+//         "Email":Templogin.value,
+//         "Passwrd":Temppass.value,
+//     }
+//     console.log(TempUser);
+//     fetch("https://localhost:44317/api/Login", {
+//     method: "POST",
+//     mode: 'cors', // no-cors, *cors, same-origin
+//     cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+//     credentials: 'same-origin', // include, *same-origin, omit
+//     headers: {
+//       'Content-Type': 'application/json'
+//       // 'Content-Type': 'application/x-www-form-urlencoded',
+//     },
+//     redirect: 'follow', // manual, *follow, error
+//     referrerPolicy: 'no-referrer',
+//     body: JSON.stringify(TempUser)
+// })
+// .then(response => response.text())
+// .then((response) => {
+
+//     window.localStorage.setItem('token',response);
+// })
+
+// }
+function LoginUser()
+{
+var UserName=document.getElementById("login");
+var Password=document.getElementById("pass");
+var LoginUser =
+{
+
+"email":UserName.value,
+"passwrd":Password.value,
+}
+fetch("https://localhost:44317/api/Login/login",
+{
+method: "POST",
+mode: 'cors', // no-cors, *cors, same-origin
+cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+credentials: 'same-origin', // include, *same-origin, omit
+headers: {
+ 
+'Content-Type': 'application/json'
+// 'Content-Type': 'application/x-www-form-urlencoded',
+},
+redirect: 'follow', // manual, *follow, error
+referrerPolicy: 'no-referrer',
+body: JSON.stringify(LoginUser),
+ 
 })
+//.then(response => response.json())
 .then(response => response.text())
 .then((response) => {
-
-    window.localStorage.setItem('token',response);
-})
-
+window.localStorage.setItem('token', response);
+window.localStorage.getItem('token').toString();
+openMain();
+});
+ 
 }
+function openMain()
+{
+  window.open("http://127.0.0.1:5501/index.html","_blank");
+} 
+function postInfo()
+{
+var UserName=document.getElementById("login");
+var Password=document.getElementById("pass");
+
+
+var LoginUser = 
+  {
+  "UserName":UserName.value,
+  "EmailId":"nothing",
+  "Password":Password.value,
+  }
+
+  fetch("https://localhost:44317/api/Login/signup", 
+  {   
+      method: "POST",
+      mode: 'cors', // no-cors, *cors, same-origin
+      cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+      credentials: 'same-origin', // include, *same-origin, omit
+      headers: {
+        'Content-Type': 'application/json'
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      redirect: 'follow', // manual, *follow, error
+      referrerPolicy: 'no-referrer',
+      body: JSON.stringify(LoginUser),
+      
+  })
+  //.then(response => response.json())
+  .then((result) => {
+      console.log(result);
+      alert("Signup Successful");
+  });
+  }
+
 
