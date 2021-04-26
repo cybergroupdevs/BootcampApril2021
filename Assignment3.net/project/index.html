@@ -29,9 +29,9 @@
 
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search"
-                    aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                
+                    
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a data-toggle="modal" data-target="#Signin" href="#" style="text-decoration: none;color: white;">SignIn</a></button>
             </form>
         </div>
     </nav>
@@ -83,9 +83,9 @@
 
 <!--That Is My Modal Section which comes only on button Click-->
 
-<div id="myModal" class="modal">
+<!-- <div id="myModal" class="modal">
     
-    <!-- Modal content -->
+    
     <div class="modal-content">
       <div class="modal-header">
         <h2>Update Your Books Here</h2>
@@ -105,11 +105,80 @@
         
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-outline-success" id="btn2">Add Book</button>
+        <button type="button" class="btn btn-outline-success" id="myBtn2">Add Book</button>
       </div>
     </div>
   
-  </div>    
+  </div>     -->
+
+
+
+  <div class="modal fade" id="Signin" tabindex="-1" role="dialog" aria-labelledby="SigninTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Sign In!!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="background:#05a54d">
+                <form id="frm1">
+                    <div class="input-box">
+                        <label for="SigninUsername" class="label">Enter Username</label>
+                        <input type="text" class="form-control" id="SigninUsername" aria-describedby="emailHelp"
+                            placeholder="Enter Username" required>
+                        <small id="emailHelp" class="form-text text-muted imp">We'll never share your username with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="SiginPassword1">Password</label>
+                        <input type="password" class="form-control" id="SiginPassword1" placeholder="Password" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" onclick="Signin()">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Sign Up Functionality-->
+
+
+
+<div class="modal fade" id="Signup" tabindex="-1" role="dialog" aria-labelledby="SignupTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="SignupTitle">Sign Up</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="background:#05a54d">
+                <form id="frm2">
+                    <div class="input-box">
+                        <label for="SignupUsername" class="label">Username</label>
+                        <input type="text" class="form-control" id="SignupUsername" aria-describedby="emailHelp"
+                            placeholder="Enter Username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="SigupPassword1" class="label">Password</label>
+                        <input type="password" class="form-control" id="SigupPassword1" placeholder="Password" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" onclick="Signup()">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+
+
+
 
     <script src="script.js"></script>
     <script src="style.css"></script>

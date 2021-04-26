@@ -45,10 +45,7 @@ fetch('https://localhost:44339/api/books',{
             
           <td>  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                
-            <div  class="btn-group me-2" role="group" aria-label="Second group">
- <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" id="myBtn" onclick="myModal(${TempUser.id})" >Update</button>
-              
-            </div>
+            
             <div class="btn-group" role="group" aria-label="Third group">
               <button type="button" class="btn btn-danger ml-1 mt-1" onclick="deleting(${TempUser.id})" >Delete</button></td>
             </tr>`;
@@ -127,6 +124,47 @@ function updatedUser(ids)
     });
 }
 
+function Update(fid,fname,fsource){
+  var TempFname=document.getElementById("Modalfname");
+  var TempSource=document.getElementById("Modalsource");
+
+  TempFname.value = fname;
+  TempSource.value = fsource;
+
+
+  var ubutton = document.getElementById("updateButton");
+  ubutton.addEventListener("click", function(){
+      var TempUser={
+        "Name": TempFname.value,
+        "Author": TempSource.value,
+        
+      }
+      //console.log(TempUser);
+      fetch("https://localhost:44339/api/books/"+"/"+fid.toString(), {
+          method: "PUT",
+          mode: 'cors', 
+          cache: 'no-cache', 
+          credentials: 'same-origin',
+          headers: {
+            
+            'Content-Type': 'application/json'
+          },
+          redirect: 'follow', 
+          referrerPolicy: 'no-referrer',
+          body: JSON.stringify(TempUser)
+          })
+          .then(result => {
+            if(result.status==200){
+              alert("Updated successfully");
+              window.location.reload();}
+            else{
+                alert("Not an Authorize user");
+                window.location.reload();
+              }}
+          );
+  }, false);
+}
+
 
 
 function deleting(id){
@@ -148,3 +186,77 @@ function deleting(id){
       console.log(result);
     })
     }
+
+
+    function Signin()
+{
+    var uname = document.getElementById("SigninUsername").value;
+    var pass = document.getElementById("SiginPassword1").value;
+    var Temp ={
+        "UserName": uname,
+        "Passwords": pass
+    };
+    fetch('https://localhost:44339/api/login/', {
+        method: "POST",
+        mode: 'cors', 
+        cache: 'no-cache', 
+        credentials: 'same-origin',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        redirect: 'follow', 
+        referrerPolicy: 'no-referrer',
+        body: JSON.stringify(Temp)
+    }).then(response => response.text())
+    .then((response) => {
+        var token = response;
+        if(token==""){
+        alert("Incorrect Username or Password");
+        }
+        else{
+            window.localStorage.setItem("token", token);
+            alert("Login successfully");
+        }
+        var frm = document.getElementById("fm1");
+        frm.reset();
+    }); 
+}
+
+function Signup(){
+  var uname = document.getElementById("SignupUsername").value;
+  var pass = document.getElementById("SigupPassword1").value;
+
+  var Temp = {
+      "UserName": uname,
+      "Password": pass,
+      
+  };
+  console.log(Temp);
+  fetch('https://localhost:44339/api/signup', {
+      method: "POST",
+      mode: 'cors', 
+      cache: 'no-cache', 
+      credentials: 'same-origin',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      redirect: 'follow', 
+      referrerPolicy: 'no-referrer',
+      body: JSON.stringify(Temp)
+  }).then(res => {
+      if(res.status==200){
+          alert("SignUp Successfully Signin to Continue");
+      }
+      else{
+          alert("User with this username or email already exist");
+          
+      }
+      var frm = document.getElementById("frm2");
+      frm.reset();
+  });
+}
+
+{/* <div  class="btn-group me-2" role="group" aria-label="Second group">
+ <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" id="myBtn" onclick="Update(${TempUser.id},${TempUser.name},${TempUser.author})" >Update</button>
+              
+            </div> */}

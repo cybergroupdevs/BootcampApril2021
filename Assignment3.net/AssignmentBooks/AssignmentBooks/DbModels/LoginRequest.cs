@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace AssignmentBooks.DbModels
 {
-    public partial class Login
+    public class LoginRequest
     {
-        public int Id { get; set; }
         public string UserName { get; set; }
-        
+
         public string Passwords { get; set; }
     }
 }

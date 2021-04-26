@@ -16,9 +16,12 @@ namespace AssignmentBooks.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
+        BooksDBContext _context;
         private IConfiguration _config;
-        public LoginController(IConfiguration config)
+
+        public LoginController(BooksDBContext context, IConfiguration config)
         {
+            _context = context;
             _config = config;
         }
 
@@ -68,11 +71,9 @@ namespace AssignmentBooks.Controllers
         private Login AuthenticateUser(Login login)
         {
             Login user = null;
-            if(login.UserName =="Jignesh")
-            {
-                user = new Login { UserName = "Jignesh", Passwords = "text.btest" };
-            }
-            return user;
+            var Users = _context.Login.ToList();
+            var myuser = Users.FirstOrDefault(xyz => (xyz.UserName == login.UserName) && (xyz.Passwords == login.Passwords));
+            return myuser;
         }
 
 
