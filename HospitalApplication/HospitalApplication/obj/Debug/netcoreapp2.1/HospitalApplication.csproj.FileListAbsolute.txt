@@ -1,0 +1,14 @@
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\bin\Debug\netcoreapp2.1\HospitalApplication.deps.json
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\bin\Debug\netcoreapp2.1\HospitalApplication.runtimeconfig.json
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\bin\Debug\netcoreapp2.1\HospitalApplication.runtimeconfig.dev.json
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\bin\Debug\netcoreapp2.1\HospitalApplication.dll
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\obj\Debug\netcoreapp2.1\HospitalApplication.csprojAssemblyReference.cache
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\obj\Debug\netcoreapp2.1\HospitalApplication.csproj.CoreCompileInputs.cache
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\obj\Debug\netcoreapp2.1\HospitalApplication.RazorAssemblyInfo.cache
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\obj\Debug\netcoreapp2.1\HospitalApplication.RazorAssemblyInfo.cs
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\obj\Debug\netcoreapp2.1\HospitalApplication.AssemblyInfoInputs.cache
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\obj\Debug\netcoreapp2.1\HospitalApplication.AssemblyInfo.cs
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\obj\Debug\netcoreapp2.1\HospitalApplication.RazorTargetAssemblyInfo.cache
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\bin\Debug\netcoreapp2.1\HospitalApplication.pdb
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\obj\Debug\netcoreapp2.1\HospitalApplication.dll
+C:\Users\srishti.sharma\source\repos\HospitalApplication\HospitalApplication\obj\Debug\netcoreapp2.1\HospitalApplication.pdb
