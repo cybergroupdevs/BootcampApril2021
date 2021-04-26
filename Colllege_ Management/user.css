@@ -1,0 +1,26 @@
+body{
+    background: url("./user.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    margin-top: 10%;
+    margin-left: 20%;
+ 
+}
+.inp{
+    width: 60%;
+}
+.btn-toolbar{
+    margin-left: 33%;
+}
+.table{
+    width: 70%;
+   margin-left: 20%;
+   margin-top: 5%;
+}
+.bt{
+    left: 10%;
+    margin-top: 20px;
+    width: 100px;
+}

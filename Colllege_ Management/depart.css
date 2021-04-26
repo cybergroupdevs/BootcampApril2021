@@ -1,0 +1,38 @@
+body{
+    background: url("./depart.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    margin-left: 10%;
+ 
+}
+label{
+    color: aliceblue;
+    font-weight: 700;
+}
+.inp{
+    width: 100%;
+}
+.btn-toolbar{
+    margin-left: 33%;
+}
+.table{
+    width: 80%;
+   margin-left: 10%;
+   margin-top: 5%;
+   background-color: rgba(0,0,0,0.8);
+   color: aliceblue;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-weight: 600;
+}
+.bts{
+    left: 2%;
+    width: 150px;
+}
+.bat{
+    width: 150px;
+}

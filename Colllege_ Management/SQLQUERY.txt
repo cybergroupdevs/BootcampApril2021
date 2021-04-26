@@ -1,0 +1,83 @@
+create database Collegedb
+create table [dbo].[DepartmentTbl]
+(
+	[DepName] VARCHAR(50) NOT NULL PRIMARY KEY,
+	[DepDesc] VARCHAR(50) NOT NULL,
+	[DepDuration] INT NOT NULL
+)
+
+create table [dbo].[TeacherTbl]
+(
+	[TeacherId] INT NOT NULL PRIMARY KEY,
+	[TeacherName] VARCHAR(50) NOT NULL,
+	[TeacherGender] VARCHAR(10) NOT NULL,
+	[TeacherDOB] VARCHAR(50) NOT NULL,
+	[TeacherPhone] VARCHAR(20) NOT NULL,
+	[TeacherDep] VARCHAR(50) NOT NULL,
+	[TeacherAdd] VARCHAR(50) NOT NULL
+)
+
+create table [dbo].[FessTbl]
+(
+	[FessNum] INT NOT NULL PRIMARY KEY,
+	[StdId] INT NOT NULL,
+	[StdName] VARCHAR(50) NOT NULL,
+	[Period] VARCHAR(50) NOT NULL,
+	[Ammount] INT NOT NULL
+	
+)
+
+
+USE [Collegedb]
+GO
+
+
+/****** Object: Table [dbo].[StudentInfo] Script Date: 04/21/2021 12:31:32 PM ******/
+SET ANSI_NULLS ON
+GO
+
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+create table [dbo].[StudentTable](
+[StdId] [int] IDENTITY(1,1) NOT NULL,
+	[StdName] VARCHAR(50) NOT NULL,
+	[StdGender] VARCHAR(10) NOT NULL,
+	[StdDOB] VARCHAR(50) NOT NULL,
+	[StdPhone] VARCHAR(20) NOT NULL,
+	[StdDep] VARCHAR(50) NOT NULL,
+	[StdFees] VARCHAR(50) NOT NULL
+PRIMARY KEY CLUSTERED
+(
+[StdId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+select * from [dbo].[StudentTable]
+
+
+USE [Collegedb]
+GO
+
+/****** Object: Table [dbo].[StudentInfo] Script Date: 04/21/2021 12:31:32 PM ******/
+SET ANSI_NULLS ON
+GO
+
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+create table [dbo].[UserTable](
+[UserId] [int] IDENTITY(1,1) NOT NULL,
+	[UserName] VARCHAR(50) NOT NULL,
+	[password] VARCHAR(50) NOT NULL
+PRIMARY KEY CLUSTERED
+(
+[UserId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+

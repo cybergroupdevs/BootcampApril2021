@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>STUDENT INFORMATION</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./student.css">
+</head>
+<body>
+
+<div class="container">
+  <br><br>
+  <button class="btn btn-danger"style="width:10%"><a href="./info.html"style="color:white"> Back</a></button>
+  <h1 style="text-align: center;color: aliceblue;font-weight: 900;">STUDENT INFORMATION</h1><br>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2 ab" for="Name">StudentName</label>
+      <div class="col-sm-10 inp">          
+        <input type="text" class="form-control" id="Name" placeholder="Enter your UserName" name="Name">
+      </div>
+    </div> 
+    <div class="form-group">
+        <label class="control-label col-sm-2 ab" for="gender">StudentGender</label>
+        <div class="col-sm-10 inp">
+          <input type="text" class="form-control" id="gender" placeholder="Enter your Gender" name="gender">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2 ab" for="DATEOB">StudentDOB</label>
+        <div class="col-sm-10 inp">
+          <input type="date" class="form-control" id="DATEOB" placeholder="Enter your DOB" name="DATEOB">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2 ab" for="phn">StudentPhone</label>
+        <div class="col-sm-10 inp">
+          <input type="number" class="form-control" id="phn" placeholder="Enter your Phone No." name="phn">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2 ab" for="dept">StudentDepartment</label>
+        <div class="col-sm-10 inp">
+          <input type="text" class="form-control" id="dept" placeholder="Enter your department" name="dept">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2 ab" for="fee">StudentFees</label>
+        <div class="col-sm-10 inp">
+          <input type="text" class="form-control" id="fee" placeholder="Enter your Fees" name="fee">
+        </div>
+      </div>
+         
+
+  </form>
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group me-2" role="group" aria-label="First group">
+      <button type="button" class="btn btn-success"onclick="addUser()"style="width:150%">ADD</button>
+    </div>
+  </div>
+ <table class="table table-stripped">
+     <thead>
+         <tr>
+             <th>Id</th>
+             <th>Name</th>
+             <th>Gender</th>
+             <th>DOB</th>
+             <th>Phone</th>
+             <th>Department</th>
+             <th>Fees</th>
+         </tr>
+     </thead>
+     <tbody id="users">
+
+     </tbody>
+
+ </table>
+</div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Update New Student!!</h4>
+        </div>
+        <div class="modal-body">
+            <label class="control-label col-sm-2" for="ModalStudentId">StudentId</label>
+              <input type="text" class="form-control" id="ModalStudentId" placeholder="Enter your Id" name="ModalStudentId">
+            <label class="control-label col-sm-2" for="Name">StudentName</label>
+              <input type="text" class="form-control" id="ModalName" placeholder="Enter your Password" name="Name">
+              <label class="control-label col-sm-2" for="gender">StudentGender</label>
+                <input type="text" class="form-control" id="Modalgender" placeholder="Enter your UserName" name="gender">
+                <label class="control-label col-sm-2" for="Modaldob">StudentDOB</label>
+                <input type="date" class="form-control" id="Modaldob" placeholder="Enter your department" name="dob">
+              <label class="control-label col-sm-2" for="phn">StudentPhone</label>
+                <input type="number" class="form-control" id="Modalphn" placeholder="Enter your Phone No." name="phn">
+              <label class="control-label col-sm-2" for="dept">StudentDepartment</label>
+                <input type="text" class="form-control" id="Modaldept" placeholder="Enter your department" name="dept">
+              <label class="control-label col-sm-2" for="Modalfee">StudentFees</label>    
+                <input type="text" class="form-control" id="Modalfee" placeholder="Enter your Fees" name="Modalfee"><br> <br>
+        
+  <input type="submit" value="Update"id="Updatebut">
+ </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+<script src="./student.js"></script>
+</body>
+</html>

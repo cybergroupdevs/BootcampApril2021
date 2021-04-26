@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TEACHER INFORMATION</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./teacher.css">
+</head>
+<body>
+
+<div class="container">
+  <br><br>
+  <button class="btn btn-danger"style="width:10%"><a href="./info.html"style="color:white"> Back</a></button>
+  <h1 style="text-align: center;font-weight: 800;">TEACHER INFORMATION</h1>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2 ab" for="TeacherId">TeacherId</label>
+      <div class="col-sm-10 inp">
+        <input type="text" class="form-control" id="TeacherId" placeholder="Enter your Id" name="TeacherId">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2 ab" for="Name">TeacherName</label>
+      <div class="col-sm-10 inp">          
+        <input type="text" class="form-control" id="Name" placeholder="Enter your UserName" name="Name">
+      </div>
+    </div> 
+    <div class="form-group">
+        <label class="control-label col-sm-2 ab" for="gender">TeacherGender</label>
+        <div class="col-sm-10 inp">
+          <input type="text" class="form-control" id="gender" placeholder="Enter your Gender" name="gender">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2 ab" for="phn">TeacherPhone</label>
+        <div class="col-sm-10 inp">
+          <input type="number" class="form-control" id="phn" placeholder="Enter your Phone No." name="phn">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2 ab" for="dept">TeacherDepartment</label>
+        <div class="col-sm-10 inp">
+          <input type="text" class="form-control" id="dept" placeholder="Enter your department" name="dept">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2 ab" for="Addre">TeacherAddress</label>
+        <div class="col-sm-10 inp">
+          <input type="text" class="form-control" id="Addre" placeholder="Enter your Address" name="Addre">
+        </div>
+      </div>
+         
+
+  </form>
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group me-2" role="group" aria-label="First group">
+      <button type="button" class="btn btn-success bts"onclick="addUser()"style="width:150%">ADD</button>
+    </div>
+  </div>
+ <table class="table table-stripped">
+     <thead>
+         <tr>
+             <th>Id</th>
+             <th>Name</th>
+             <th>Gender</th>
+             <th>Phone</th>
+             <th>Department</th>
+             <th>Address</th>
+         </tr>
+     </thead>
+     <tbody id="users">
+
+     </tbody>
+
+ </table>
+</div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Update New Teacher!!</h4>
+        </div>
+        <div class="modal-body">
+            <label class="control-label col-sm-2" for="TeacherId">TeacherId</label>
+              <input type="text" class="form-control" id="ModalTeacherId" placeholder="Enter your Id" name="TeacherId">
+            <label class="control-label col-sm-2" for="Name">TeacherName</label>
+              <input type="text" class="form-control" id="ModalName" placeholder="Enter your Password" name="Name">
+              <label class="control-label col-sm-2" for="gender">TeacherGender</label>
+                <input type="text" class="form-control" id="Modalgender" placeholder="Enter your UserName" name="gender">
+              <label class="control-label col-sm-2" for="phn">TeacherPhone</label>
+                <input type="number" class="form-control" id="Modalphn" placeholder="Enter your Phone No." name="phn">
+              <label class="control-label col-sm-2" for="dept">TeacherDepartment</label>
+                <input type="text" class="form-control" id="Modaldept" placeholder="Enter your department" name="dept">
+              <label class="control-label col-sm-2" for="Addre">TeacherAddress</label>    
+                <input type="text" class="form-control" id="ModalAddre" placeholder="Enter your Address" name="Addre"><br> <br>
+        
+  <input type="submit" value="Update"id="Updatebut">
+ </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+<script src="./teacher.js"></script>
+</body>
+</html>

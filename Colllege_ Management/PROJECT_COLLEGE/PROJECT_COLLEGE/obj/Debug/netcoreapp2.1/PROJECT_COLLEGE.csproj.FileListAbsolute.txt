@@ -1,0 +1,14 @@
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\bin\Debug\netcoreapp2.1\PROJECT_COLLEGE.deps.json
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\bin\Debug\netcoreapp2.1\PROJECT_COLLEGE.runtimeconfig.json
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\bin\Debug\netcoreapp2.1\PROJECT_COLLEGE.runtimeconfig.dev.json
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\bin\Debug\netcoreapp2.1\PROJECT_COLLEGE.dll
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\bin\Debug\netcoreapp2.1\PROJECT_COLLEGE.pdb
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\obj\Debug\netcoreapp2.1\PROJECT_COLLEGE.csprojAssemblyReference.cache
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\obj\Debug\netcoreapp2.1\PROJECT_COLLEGE.csproj.CoreCompileInputs.cache
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\obj\Debug\netcoreapp2.1\PROJECT_COLLEGE.RazorAssemblyInfo.cache
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\obj\Debug\netcoreapp2.1\PROJECT_COLLEGE.RazorAssemblyInfo.cs
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\obj\Debug\netcoreapp2.1\PROJECT_COLLEGE.AssemblyInfoInputs.cache
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\obj\Debug\netcoreapp2.1\PROJECT_COLLEGE.AssemblyInfo.cs
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\obj\Debug\netcoreapp2.1\PROJECT_COLLEGE.RazorTargetAssemblyInfo.cache
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\obj\Debug\netcoreapp2.1\PROJECT_COLLEGE.dll
+C:\Users\bhavana.nagpal\source\repos\PROJECT_COLLEGE\PROJECT_COLLEGE\obj\Debug\netcoreapp2.1\PROJECT_COLLEGE.pdb
