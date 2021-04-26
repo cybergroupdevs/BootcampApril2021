@@ -1,0 +1,59 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+ 
+<body >
+    <div>
+        <h1><b><u>BANK MANAGEMENT SYSTEM</u></b></h1>
+        <h3 style="font-size: 40px;"> Users Records</h3>
+       <table >
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Account Number</th>
+                    <th>Account Holder Name</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                    <th>IFSC Code</th>
+                    <th>Amount</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody id="userTable"></tbody>
+        </table>
+    </div>
+ 
+    <div style="padding-top: 1%;border:1px solid black;margin-left: 6rem;margin-right: 6rem;margin-bottom: 6rem;">
+        <h3 style="font-size: 30px;">Add user</h3>
+            <form >
+                <label for="accNum">Account Number: </label><br>
+                <input type="text" id="accNum" name="accNum"><br>
+                <label for="name">Account Holder Name: </label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="age">Age: </label><br>
+                <input type="text" id="age" ><br>
+                <label for="address">Address: </label><br>
+                <textarea cols="30" rows="5" id="address"></textarea><br>
+                <label for="ifsc">IFSC Code: </label><br>
+                <input type="text" id="ifsc" name="ifsc"><br>
+                <label for="amount">Amount: </label><br>
+                <input type="text" id="amount" name="amount">
+                <br>
+                <br>
+              <button type="button" onclick="addUser()">Add User</button>
+              </form>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+ 
+</html>

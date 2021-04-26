@@ -1,0 +1,14 @@
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\bin\Debug\netcoreapp2.1\BankManagementSystem.deps.json
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\bin\Debug\netcoreapp2.1\BankManagementSystem.runtimeconfig.json
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\bin\Debug\netcoreapp2.1\BankManagementSystem.runtimeconfig.dev.json
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\bin\Debug\netcoreapp2.1\BankManagementSystem.dll
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\bin\Debug\netcoreapp2.1\BankManagementSystem.pdb
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\obj\Debug\netcoreapp2.1\BankManagementSystem.csprojAssemblyReference.cache
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\obj\Debug\netcoreapp2.1\BankManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\obj\Debug\netcoreapp2.1\BankManagementSystem.RazorAssemblyInfo.cache
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\obj\Debug\netcoreapp2.1\BankManagementSystem.RazorAssemblyInfo.cs
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\obj\Debug\netcoreapp2.1\BankManagementSystem.AssemblyInfoInputs.cache
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\obj\Debug\netcoreapp2.1\BankManagementSystem.AssemblyInfo.cs
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\obj\Debug\netcoreapp2.1\BankManagementSystem.RazorTargetAssemblyInfo.cache
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\obj\Debug\netcoreapp2.1\BankManagementSystem.dll
+C:\Users\arpit.sharma\source\repos\BankManagementSystem\BankManagementSystem\obj\Debug\netcoreapp2.1\BankManagementSystem.pdb
