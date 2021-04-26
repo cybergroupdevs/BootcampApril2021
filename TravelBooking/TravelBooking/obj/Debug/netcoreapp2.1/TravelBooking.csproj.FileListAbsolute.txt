@@ -1,0 +1,17 @@
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\bin\Debug\netcoreapp2.1\TravelBooking.deps.json
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\bin\Debug\netcoreapp2.1\TravelBooking.runtimeconfig.json
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\bin\Debug\netcoreapp2.1\TravelBooking.runtimeconfig.dev.json
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\bin\Debug\netcoreapp2.1\TravelBooking.dll
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\bin\Debug\netcoreapp2.1\TravelBooking.pdb
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\obj\Debug\netcoreapp2.1\TravelBooking.AssemblyInfoInputs.cache
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\obj\Debug\netcoreapp2.1\TravelBooking.AssemblyInfo.cs
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\obj\Debug\netcoreapp2.1\TravelBooking.csproj.CoreCompileInputs.cache
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\obj\Debug\netcoreapp2.1\TravelBooking.RazorAssemblyInfo.cache
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\obj\Debug\netcoreapp2.1\TravelBooking.RazorAssemblyInfo.cs
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\obj\Debug\netcoreapp2.1\TravelBooking.RazorTargetAssemblyInfo.cache
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\obj\Debug\netcoreapp2.1\TravelBooking.dll
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\obj\Debug\netcoreapp2.1\TravelBooking.pdb
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\obj\Debug\netcoreapp2.1\TravelBooking.genruntimeconfig.cache
+C:\Users\mayank.aggarwal\source\repos\TravelBooking\TravelBooking\obj\Debug\netcoreapp2.1\TravelBooking.csprojAssemblyReference.cache

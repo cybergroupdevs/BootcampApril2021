@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Booking Portal</title>
+</head>
+ 
+<body >
+    <div >
+        <h1 style="font-size: 40px;">Booking Portal</h1>
+       <table >
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Booking Date</th>
+                    <th>Flight Name</th>
+                    <th>Time</th>
+                    <th>Address</th>
+                    <th>Action</th>
+
+                </tr>
+            </thead>
+            <tbody id="userTable"></tbody>
+        </table>
+  
+    </div>
+    <div style="padding-top: 1%;">
+        <h3 style="font-size: 30px;">Login</h3>
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+            </div>
+          
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" id="uname" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" id="psw" required>
+          
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+          
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>  
+          <hr>  
+        <form >
+                
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="pass">Password:</label><br>
+                <input type="text" id="pass" name="pass"><br>
+                <label for="time">E-Mail Address:</label><br>
+                <input type="text" id="address"><br>
+
+
+                
+
+                <!-- <textarea cols="30" rows="5" id="address"></textarea> -->
+              
+              <br>
+              <button type="button" onclick="addAuthUser()">SignUp</button>
+              </form>
+        
+    </div>
+    <script src="./Script.js"></script>
+</body>
+ 
+</html>
