@@ -1,0 +1,14 @@
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\bin\Debug\netcoreapp2.1\LibraryBooksManagementSystem.deps.json
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\bin\Debug\netcoreapp2.1\LibraryBooksManagementSystem.runtimeconfig.json
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\bin\Debug\netcoreapp2.1\LibraryBooksManagementSystem.runtimeconfig.dev.json
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\bin\Debug\netcoreapp2.1\LibraryBooksManagementSystem.dll
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\bin\Debug\netcoreapp2.1\LibraryBooksManagementSystem.pdb
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\obj\Debug\netcoreapp2.1\LibraryBooksManagementSystem.csprojAssemblyReference.cache
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\obj\Debug\netcoreapp2.1\LibraryBooksManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\obj\Debug\netcoreapp2.1\LibraryBooksManagementSystem.RazorAssemblyInfo.cache
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\obj\Debug\netcoreapp2.1\LibraryBooksManagementSystem.RazorAssemblyInfo.cs
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\obj\Debug\netcoreapp2.1\LibraryBooksManagementSystem.AssemblyInfoInputs.cache
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\obj\Debug\netcoreapp2.1\LibraryBooksManagementSystem.AssemblyInfo.cs
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\obj\Debug\netcoreapp2.1\LibraryBooksManagementSystem.RazorTargetAssemblyInfo.cache
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\obj\Debug\netcoreapp2.1\LibraryBooksManagementSystem.dll
+C:\Users\bhanuja.aggarwal\source\repos\LibraryBooksManagementSystem\LibraryBooksManagementSystem\obj\Debug\netcoreapp2.1\LibraryBooksManagementSystem.pdb

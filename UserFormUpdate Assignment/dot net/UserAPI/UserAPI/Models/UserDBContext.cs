@@ -16,6 +16,7 @@ namespace UserAPI.Models
         }
 
         public virtual DbSet<UsersTable> UsersTable { get; set; }
+        public virtual DbSet<UserLogin> UsersLogin { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -42,6 +43,25 @@ namespace UserAPI.Models
                     .HasMaxLength(255)
                     .IsUnicode(false);
             });
+
+            modelBuilder.Entity<UserLogin>(entity =>
+            {
+               
+                entity.Property(e => e.user_name)
+                   .HasMaxLength(255)
+                   .IsUnicode(false);
+                entity.Property(e => e.user_email)
+                   .HasMaxLength(255)
+                   .IsUnicode(false);
+
+                entity.Property(e => e.password)
+                    .HasMaxLength(255)
+                    .IsUnicode(false);
+
+                
+            });
+
+
         }
     }
 }

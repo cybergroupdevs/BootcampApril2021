@@ -102,22 +102,22 @@ function deleteUser(id) {
   getUserData();
 }
 
-function UpdateUser(id1){
- // console.log(id1);
+// function UpdateUser(id1){
+//  // console.log(id1);
   
-  var TempFname=document.getElementById("Mfname");
-    var TempLname=document.getElementById("Mlname");
-    var TempAge=document.getElementById("Mage");
-    var TempAddress=document.getElementById("Maddress");
-    var TempUser={
-        "FirstName":TempFname.value,
-        "LastName":TempLname.value,
-        "Age":TempAge.value,
-        "Address":TempAddress.value
-    }
-    console.log(TempUser);
+//   var TempFname=document.getElementById("Mfname");
+//     var TempLname=document.getElementById("Mlname");
+//     var TempAge=document.getElementById("Mage");
+//     var TempAddress=document.getElementById("Maddress");
+//     var TempUser={
+//         "FirstName":TempFname.value,
+//         "LastName":TempLname.value,
+//         "Age":TempAge.value,
+//         "Address":TempAddress.value
+//     }
+//     console.log(TempUser);
   
-}
+// }
 
 // function update(ids)
 // {

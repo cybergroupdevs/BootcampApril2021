@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Library System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style1.css">
+ </head>
+ <body id="body2"  onload="getData()">
+<div class="container-fluid" style="text-align: center;">
+    
+<h1 id="h1_index2">Library Portal</h1>
+</div>
+<div class="container-fluid" style="padding-top: 3%;padding-left: 3%;padding-right: 3%;">
+  
+  <table class="table table-hover " >
+    <thead class="thead">
+      <tr>
+        <th colspan="2">List of Books</th>
+        <td align="right"><i class="fa fa-plus-square" aria-hidden="true" onclick="addBook()" data-toggle="modal" data-target="#myModal" onclick="addBook()"></i>
+          &nbsp&nbsp&nbsp
+          </th>
+        </tr>
+        
+    </thead>
+    <tbody id="BookBody" style="font-size: 20px;">
+      
+    </tbody>
+  </table>
+  </div>
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 id="modalHeading" class="modal-title">Book Details!!</h4>
+        </div>
+        <div class="modal-body">
+        <form>
+  <label for="Mname">Book name:</label><br>
+  <input type="text" id="Mname" name="name" value=""><br>
+  <label for="Mauthor">Author:</label><br>
+  <input type="text" id="Mauthor" name="author" value=""><br>
+   <label for="Mcost">Cost:</label><br>
+  <input type="text" id="Mcost" name="cost" value=""><br>
+   <label for="Missued">Issued:</label><br>
+  <input type="text" id="Missued" name="issued" value=""><br>
+  <label for="Mavailable">Available:</label><br>
+  <input type="text" id="Mavailable" name="available" value=""><br><br>
+  <input type="button"  id="updateData" value="OK">
+</form> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" id="refresh">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
