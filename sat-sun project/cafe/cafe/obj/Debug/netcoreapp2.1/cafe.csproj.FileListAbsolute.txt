@@ -1,0 +1,14 @@
+C:\Users\sumedha.arora\source\repos\cafe\cafe\bin\Debug\netcoreapp2.1\cafe.deps.json
+C:\Users\sumedha.arora\source\repos\cafe\cafe\bin\Debug\netcoreapp2.1\cafe.runtimeconfig.json
+C:\Users\sumedha.arora\source\repos\cafe\cafe\bin\Debug\netcoreapp2.1\cafe.runtimeconfig.dev.json
+C:\Users\sumedha.arora\source\repos\cafe\cafe\bin\Debug\netcoreapp2.1\cafe.dll
+C:\Users\sumedha.arora\source\repos\cafe\cafe\obj\Debug\netcoreapp2.1\cafe.csprojAssemblyReference.cache
+C:\Users\sumedha.arora\source\repos\cafe\cafe\obj\Debug\netcoreapp2.1\cafe.csproj.CoreCompileInputs.cache
+C:\Users\sumedha.arora\source\repos\cafe\cafe\obj\Debug\netcoreapp2.1\cafe.RazorAssemblyInfo.cache
+C:\Users\sumedha.arora\source\repos\cafe\cafe\obj\Debug\netcoreapp2.1\cafe.RazorAssemblyInfo.cs
+C:\Users\sumedha.arora\source\repos\cafe\cafe\obj\Debug\netcoreapp2.1\cafe.AssemblyInfoInputs.cache
+C:\Users\sumedha.arora\source\repos\cafe\cafe\obj\Debug\netcoreapp2.1\cafe.AssemblyInfo.cs
+C:\Users\sumedha.arora\source\repos\cafe\cafe\obj\Debug\netcoreapp2.1\cafe.RazorTargetAssemblyInfo.cache
+C:\Users\sumedha.arora\source\repos\cafe\cafe\bin\Debug\netcoreapp2.1\cafe.pdb
+C:\Users\sumedha.arora\source\repos\cafe\cafe\obj\Debug\netcoreapp2.1\cafe.dll
+C:\Users\sumedha.arora\source\repos\cafe\cafe\obj\Debug\netcoreapp2.1\cafe.pdb
