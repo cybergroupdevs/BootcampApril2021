@@ -1,0 +1,36 @@
+fetch('https://localhost:44325/api/student',{
+    mode: 'cors', // no-cors, *cors, same-origin
+    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+    credentials: 'same-origin', // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json'
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    redirect: 'follow', // manual, *follow, error
+    referrerPolicy: 'no-referrer'
+}
+)
+.then(res => res.json())
+.then(data => {
+    let li = "";
+            data.forEach(user => {
+                //console.log(user);
+            li += `<tr>
+            <td>${user.EmpId} </td>
+            <td>${user.EmpFName} </td>
+            <td>${user.EmpLName} </td>
+            <td>${user.EmpDptno}</td> 
+            <td>${user.EmpDptname} </td>
+          <td>  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+               
+            <div  class="btn-group me-2" role="group" aria-label="Second group">
+            <button type="button" class="btn btn-success" onclick="updateUser(${user.id},'${user.EmpFname}','${user.EmpLname}',${user.EmpDptno},'${user.EmpDptname}')" data-toggle="modal" data-target="#myModal" >Update</button>
+            <div class="btn-group me-2" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-danger"onclick=deleteUser('${user.id}');>Delete</button>
+            </tr>`;
+    });
+    document.getElementById("Table").innerHTML = li;
+})
+.catch(function(error) {
+  console.log('Looks like there was a problem: \n', error);
+});
