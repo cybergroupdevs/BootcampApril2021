@@ -1,7 +1,8 @@
 var url = "https://localhost:44385/api/Airline";
 
 
-
+function Onfetch()
+{
 fetch(url,{
     mode: 'cors',
     cache: 'no-cache',
@@ -26,11 +27,11 @@ fetch(url,{
             <td>${TempUser.flightSeats}</td>
             <td>${TempUser.flightDeparture}</td>
             <td>${TempUser.flightArrival}</td>
-            <td>${TempUser.flightCharges} </td>
+            <td>${TempUser.flightCharges}</td>
             <td>  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
 
             <div  class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" id="${data}" onclick=Update(${TempUser.id},'${TempUser.firstName}','${TempUser.lastName}','${TempUser.address}','${TempUser.city}')>Update</button>
+              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" id="${data}" onclick=Update(${TempUser.fid},'${TempUser.flightName}','${TempUser.flightSource}','${TempUser.flightdestination}','${TempUser.flightSeats}','${TempUser.flightDeparture}','${TempUser.flightArrival}','${TempUser.flightCharges}')>Update</button>
 
             </div>
             <div class="btn-group" role="group" aria-label="Third group">
@@ -39,6 +40,7 @@ fetch(url,{
         });
         document.getElementById("userTable").innerHTML = li;
     })
+  }
 
 
 
@@ -89,27 +91,36 @@ function addUser(){
 }
 
 
-function Update(id,mfname,mlname,maddress,mcity){
+function Update(fid,fname,fsource,fdest,fseats,fdepar,farriv,fcharges){
     var TempFname=document.getElementById("Modalfname");
-    var TempLname=document.getElementById("Modallname");
-    var TempAddress=document.getElementById("Modaladdress");
-    var TempCity=document.getElementById("Modalcity");
+    var TempSource=document.getElementById("Modalsource");
+    var TempDest=document.getElementById("Modaldest");
+    var TempSeats=document.getElementById("Modalseats");
+    var TempDepar=document.getElementById("Modaldepar");
+    var TempArrival=document.getElementById("Modalarrival");
+    var TempCharges=document.getElementById("Modalcharges");
 
-    TempFname.value = mfname;
-    TempLname.value = mlname;
-    TempAddress.value = maddress;
-    TempCity.value = mcity;
+    TempFname.value = fname;
+    TempSource.value = fsource;
+    TempDest.value = fdest;
+    TempSeats.value = fseats;
+    TempDepar.value = fdepar;
+    TempArrival.value = farriv;
+    TempCharges.value = fcharges; 
 
     var ubutton = document.getElementById("updateButton");
     ubutton.addEventListener("click", function(){
         var TempUser={
-            "FirstName":TempFname.value,
-            "LastName":TempLname.value,
-            "Address":TempAddress.value,
-            "City":TempCity.value
+          "flightName": TempFname.value,
+          "flightSource": TempSource.value,
+          "flightdestination": TempDest.value,
+          "flightSeats": TempSeats.value,
+          "flightDeparture": TempDepar.value,
+          "flightArrival": TempArrival.value,
+          "flightCharges": TempCharges.value
         }
         //console.log(TempUser);
-        fetch(url+"/"+id.toString(), {
+        fetch(url+"/"+fid.toString(), {
             method: "PUT",
             mode: 'cors', 
             cache: 'no-cache', 
@@ -168,6 +179,40 @@ function Signin()
     }); 
 }
 
+function SignUp(){
+  var uname = document.getElementById("SignupUsername").value;
+  var pass = document.getElementById("SigupPassword1").value;
+  var email = document.getElementById("SigupEmail").value;
+  var Temp = {
+      "UserName": uname,
+      "Password": pass,
+      "Email": email
+  };
+  fetch('https://localhost:44385/api/Signup', {
+      method: "POST",
+      mode: 'cors', 
+      cache: 'no-cache', 
+      credentials: 'same-origin',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      redirect: 'follow', 
+      referrerPolicy: 'no-referrer',
+      body: JSON.stringify(Temp)
+  }).then(res => {
+      if(res.status==200){
+          alert("SignUp Successfully Signin to Continue");
+      }
+      else{
+          alert("User with this username or email already exist");
+          
+      }
+      var frm = document.getElementById("frm2");
+      frm.reset();
+  });
+}
+
+
 function Delete(id){
     
    fetch(url+"/"+id.toString(), {
@@ -193,29 +238,29 @@ function Delete(id){
     );
 }
 
-function Posting(){
-  var input1 = document.getElementById("uname");
-  var input2 = document.getElementById("pass");
-  var TempUser = {
-      "UserName": input1.value,
-      "password_": input2.value
-  }
-  fetch('https://localhost:44353/api/UserAuth', {
-      method: "POST",
-      mode: 'cors', 
-      cache: 'no-cache', 
-      credentials: 'same-origin',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      redirect: 'follow', 
-      referrerPolicy: 'no-referrer',
-      body: JSON.stringify(TempUser)
-      })
-      .then(response => response.text())
-      .then((response) => {
-          var token = response;
-          console.log(typeof(token));
-          window.localStorage.setItem("token", token);
-      });
-}
+// function Posting(){
+//   var input1 = document.getElementById("uname");
+//   var input2 = document.getElementById("pass");
+//   var TempUser = {
+//       "UserName": input1.value,
+//       "password_": input2.value
+//   }
+//   fetch('https://localhost:44353/api/UserAuth', {
+//       method: "POST",
+//       mode: 'cors', 
+//       cache: 'no-cache', 
+//       credentials: 'same-origin',
+//       headers: {
+//         'Content-Type': 'application/json'
+//       },
+//       redirect: 'follow', 
+//       referrerPolicy: 'no-referrer',
+//       body: JSON.stringify(TempUser)
+//       })
+//       .then(response => response.text())
+//       .then((response) => {
+//           var token = response;
+//           console.log(typeof(token));
+//           window.localStorage.setItem("token", token);
+//       });
+// }
