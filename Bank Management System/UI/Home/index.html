@@ -13,7 +13,7 @@
     <title>Home</title>
 </head>
  
-<body >
+<body onload="get()">
     <div>
         <div>
             <img src="./logo.png">
@@ -80,11 +80,10 @@
       <input type="text" id="MifscN" name="ifscN" value=""><br>
       <label for="amountN">Amount: </label><br>
       <input type="text" id="MamountN" name="amountN" value=""><br><br>
-      <input type="submit" value="Update">
     </form> 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button id="updateEntry" type="button" class="btn btn-default" data-dismiss="modal">Update</button>
             </div>
           </div>
           
