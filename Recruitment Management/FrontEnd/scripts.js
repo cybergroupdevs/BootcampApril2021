@@ -21,8 +21,8 @@ function Get(){
                     </td>
                     <td>${temp.availabile}</td>
                     <td>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#MUpdate" id="${temp.id} "onclick="Update(${temp.id},'${temp.cname}',${temp.availabile})">Update</button>
-                        <button type="button" class="btn btn-danger" onclick="Delete(${temp.id})">Delete</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#MUpdate" id="${temp.id} "onclick="Update('${temp.id}','${temp.cname}','${temp.designation}','${temp.drole}','${temp.availabile}')">Update</button>
+                        <button type="button" class="btn btn-danger" onclick="Delete('${temp.id}')">Delete</button>
                 </td>
                 </tr>`;
             });
@@ -79,13 +79,17 @@ function AddPost(){
 }
 
 
-function Update(id,name,ava){
+function Update(id,name,des,drole,ava){
     var u_name = document.getElementById("CompanyName_");
     var u_ava = document.getElementById("Availability_");
+    var u_role = document.getElementById('Roledesc_');
+    var u_des = document.getElementById('designation_');
     var ubutton = document.getElementById("update-post");
     ubutton.value = id;
     u_name.value = name;
+    u_role.value = drole;
     u_ava.value = ava;
+    u_des.value = des;
 }
 
 
