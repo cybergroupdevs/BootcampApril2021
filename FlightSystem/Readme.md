@@ -7,5 +7,4 @@ Then Scafold the database with your apis<br>
 Change the localhost in the javascript as well of your frontend<br>
 run the project<br>
 
-FYI : "There is some issue regarding the put and its authorisation as well i will resolve it soon in the mean time you can try the other methods and operation in the system"
 
