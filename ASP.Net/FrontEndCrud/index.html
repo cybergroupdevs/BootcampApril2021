@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Curd Opertaions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Login
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Login Please!!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label for="uname">UserName:</label><br>
+                            <input type="text" id="uname" name="fname"><br>
+                            <label for="pass">PassWord:</label><br>
+                            <input type="password" id="pass" name="lname"><br>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" onclick="Posting()">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </div>
+
+
+
+    <div>
+        <h1 style="font-size: 40px;"> Users Records</h1>
+        <table class="mx-5">
+            <thead>
+                <tr>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="userTable"></tbody>
+        </table>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Update new User!!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="Modalfname" name="fname" value=""><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="Modallname" name="lname" value=""><br>
+                            <label for="fname">Address:</label><br>
+                            <input type="text" id="Modaladdress" name="age" value=""><br>
+                            <label for="fname">City:</label><br>
+                            <input type="text" id="Modalcity" name="address" value=""><br><br>
+                            <button type="button" class="my-2" id="updateButton">Update Values</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" id="Refresh">Close</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="py-3">
+        <h3 style="font-size: 30px;">Add user</h3>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="age">Address:</label><br>
+            <input type="text" id="address"><br>
+            <label for="address">City:</label><br>
+            <input type="text" id="city"><br>
+
+            <button type="button" class="my-2" onclick="addUser()">Add User</button>
+        </form>
+
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

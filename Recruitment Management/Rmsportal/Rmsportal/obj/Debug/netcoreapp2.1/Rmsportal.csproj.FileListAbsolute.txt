@@ -1,0 +1,28 @@
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\bin\Debug\netcoreapp2.1\Rmsportal.deps.json
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\bin\Debug\netcoreapp2.1\Rmsportal.runtimeconfig.json
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\bin\Debug\netcoreapp2.1\Rmsportal.runtimeconfig.dev.json
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\bin\Debug\netcoreapp2.1\Rmsportal.dll
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\bin\Debug\netcoreapp2.1\Rmsportal.pdb
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.csproj.CoreCompileInputs.cache
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.RazorAssemblyInfo.cache
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.RazorAssemblyInfo.cs
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.AssemblyInfoInputs.cache
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.AssemblyInfo.cs
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.RazorTargetAssemblyInfo.cache
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.dll
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.pdb
+C:\Users\vikas.upadhayay\source\repos\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.csprojAssemblyReference.cache
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\bin\Debug\netcoreapp2.1\Rmsportal.deps.json
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\bin\Debug\netcoreapp2.1\Rmsportal.runtimeconfig.json
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\bin\Debug\netcoreapp2.1\Rmsportal.runtimeconfig.dev.json
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\bin\Debug\netcoreapp2.1\Rmsportal.dll
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\bin\Debug\netcoreapp2.1\Rmsportal.pdb
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.csprojAssemblyReference.cache
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.csproj.CoreCompileInputs.cache
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.RazorAssemblyInfo.cache
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.RazorAssemblyInfo.cs
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.AssemblyInfoInputs.cache
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.AssemblyInfo.cs
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.RazorTargetAssemblyInfo.cache
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.dll
+C:\Users\vikas.upadhayay\Desktop\BootCamp\BootcampApril2021\Recruitment Management\Rmsportal\Rmsportal\obj\Debug\netcoreapp2.1\Rmsportal.pdb

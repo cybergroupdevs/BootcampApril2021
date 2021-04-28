@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Recruitment Management</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background-color: #FF3CAC;
+            background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+            background-repeat: no-repeat;
+            background-position: left top;
+        }
+
+        label {
+            filter: drop-shadow(2px 4px 6px black);
+            color: #ffffff;
+        }
+
+        .imp {
+            color: #010101 !important;
+        }
+    </style>
+</head>
+
+<body onload="Get()">
+    <!--make navbar collapse-->
+    <nav class="navbar navbar-light justify-content-between" style="background-color: #e3f2fd;" id="flot">
+        <a class="navbar-brand mx-5" href="#">Recruitment Management</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown mx-5" id="signinchange">
+                    <a class="nav-link dropdown-toggle btn btn-outline-info" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Company
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item btn btn-ligh" data-toggle="modal" data-target="#Signin" href="#">Sign
+                            in</a>
+                        <a class="dropdown-item btn btn-ligh" data-toggle="modal" data-target="#Signup" href="#">Sign
+                            up</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Modal for Signin-->
+    <div class="modal fade" id="Signin" tabindex="-1" role="dialog" aria-labelledby="SigninTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Sign In!!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="background:#A7B8FF">
+                    <form id="signin-form">
+                        <div class="input-box">
+                            <label for="SigninUsername" class="label">Enter Username</label>
+                            <input type="text" class="form-control" id="SigninUsername" aria-describedby="emailHelp"
+                                placeholder="Enter Username" required>
+                            <small id="emailHelp" class="form-text text-muted imp">We'll never share your username with
+                                anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="SiginPassword1">Password</label>
+                            <input type="password" class="form-control" id="SiginPassword1" placeholder="Password"
+                                required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" onclick="SignIn()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal for Signup-->
+    <div class="modal fade" id="Signup" tabindex="-1" role="dialog" aria-labelledby="SignupTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignupTitle">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="background:#A7B8FF">
+                    <form id="signup-form">
+                        <div class="input-box">
+                            <label for="SignupUsername" class="label">Username</label>
+                            <input type="text" class="form-control" id="SignupUsername" aria-describedby="emailHelp"
+                                placeholder="Enter Username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="SigupPassword1" class="label">Password</label>
+                            <input type="password" class="form-control" id="SigupPassword1" placeholder="Password"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="Email" class="label">Email</label>
+                            <input type="email" class="form-control" id="SigupEmail" placeholder="Email" required>
+                            <small id="emailHelp" class="form-text text-muted imp">We'll never share your email with
+                                anyone
+                                else.</small>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" onclick="SignUp()">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--table to show all entry-->
+    <div class="container my-5" style="overflow-x: auto;" >
+        <table class="table" style="background: #e3f2fd;border-radius: 5px;">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Company Name</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">Availability</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody id="insert">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <!--Model to update Entries-->
+    <div class="modal fade" id="MUpdate" tabindex="-1" role="dialog" aria-labelledby="MUpdateTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="MUpdateTitle">Update Values!!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="background:#A7B8FF">
+                    <form id="update-application">
+                        <div class="input-box">
+                            <label for="Company Name" class="label">Company Name</label>
+                            <input type="text" class="form-control" id="CompanyName_" aria-describedby="emailHelp"
+                                placeholder="Enter Username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="designation" class="label">Designation</label>
+                            <input type="text" class="form-control" id="designation_" placeholder="Designation"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="roledescription" class="label">Role description</label>
+                            <input type="text" class="form-control" id="Roledesc_" placeholder="Role description"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="Availability" class="label">Availability</label>
+                            <input type="text" class="form-control" id="Availability_" placeholder="Password"
+                                required>
+                        </div>
+                        
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" id="update-post" data-dismiss="modal">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Form to add entry in table with fiels company name, designation, role description, Availability-->
+    <div class="container">
+        <section class="margin:0 auto">
+            <p style="font-size: 6vh;text-align: center;color: cornsilk;">Post a Job!!</p>
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12 mb-md-0 mb-5">
+                    <form id="form-update" name="form" action="" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6" style="margin-top: 3%;">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="Cname" name="Cname" class="form-control"
+                                        placeholder="Company Name">
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6" style="margin-top: 3%;">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="Designation" name="Designation" class="form-control"
+                                        placeholder="Designation">
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0" style="margin-top: 3%;">
+                                    <input type="text" id="Roledesc" name="Roledesc" class="form-control"
+                                        placeholder="Role description">
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0" style="margin-top: 3%;">
+                                    <input type="text" id="Availability" name="Availability" class="form-control"
+                                        placeholder="Availability">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+                    </form>
+                    <div class="text-center text-md-left" style="margin-top: 1%;float: right;">
+                        <button class="btn btn-success" onclick="AddPost()">Submit</button>
+                    </div>
+                </div>
+                <!--Grid column-->
+            </div>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
