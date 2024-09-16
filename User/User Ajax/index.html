@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+ 
+<body >
+    <div >
+        <h1 style="font-size: 40px;"> Users Records</h1>
+       <table >
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="userTable"></tbody>
+        </table>
+  
+    </div>
+ 
+    <div style="padding-top: 1%;">
+        <h3 style="font-size: 30px;">Add user</h3>
+            <form >
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="age">Age:</label><br>
+                <input type="text" id="age" ><br>
+                <label for="address">Address:</label><br>
+                <textarea cols="30" rows="5" id="address"></textarea>
+              
+              <br>
+              <button type="button" onclick="addUser()">Add User</button>
+              </form>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+ 
+</html>
