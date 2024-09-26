@@ -1,0 +1,12 @@
+﻿create table Entries(
+Id int identity(1,1) primary key,
+EmployeeId int,
+Name varchar(255),
+Contact varchar(10),
+Location varchar(50),
+);
+create table LoginUser(
+Id int identity(1,1) primary key,
+Email varchar(255),
+Passwrd varchar(255)
+);
