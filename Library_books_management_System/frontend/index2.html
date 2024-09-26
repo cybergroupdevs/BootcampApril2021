@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Library System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style2.css">
+ </head>
+ <body id="body2"  onload="getData()">
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size: 80px;font-weight:100px;">  BL Library </h1>
+      <br>
+      <h1 style="font-size:20px;font-family:Lucida Sans Typewriter;">~ a reader lives a thousands lives before he dies</h1>
+      <br>
+ </div>
+  </div>
+
+
+  <div class="container-fluid  " style="padding-top:1%;" >
+    <div class="row ">
+        
+         <div class="col-sm-4 my-3">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white" style="background-color: rgb(151, 177, 248);">
+                    <div class="card-body">
+                        <img src="./billgates.jpg" class="image-responsive" height="110%" width="100%">
+                        <h3 class="card-title" style="text-align: center;">Bill gates</h3>
+                       
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h5 class="card-title">The richest man in the world reads 50 books a year.</h3>
+                        <p class="card-text">
+                          Gates shares that while he can travel anywhere and meet with anyone,
+                           reading is still the main way that he learns new things and tests his understanding.
+                            He always has a book with him wherever he goes.
+                          </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 my-3">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white" style="background-color: rgb(240, 155, 190);">
+                    <div class="card-body">
+                      <img src="./warrenbuffet.jpg" class="image-responsive" height="110%" width="100%">
+                      <h3 class="card-title" style="text-align: center;">Warren Buffet</h3>
+                     
+                  </div>
+              </div>
+              <div class="card-back bg-white">
+                  <div class="card-body">
+                      <h5 class="card-title">Buffet read 600 to 1,000 pages daily when beginning his career as an investor..</h3>
+                      <p class="card-text">
+                        Someone once asked Buffet about keys to success,
+                         and he said "Read 500 pages every day. That's how knowledge works. 
+                         It builds up, like compound interest.
+                          All of you can do it, but I guarantee not many of you will do it."
+
+                       </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 my-3">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white" style="background-color: rgb(164, 236, 81);">
+                    <div class="card-body">
+                      <img src="./abdul_kalam_.jpg" class="image-responsive" height="110%" width="100%">
+                      <h3 class="card-title" style="text-align: center;">APJ Abdul Kalam</h3>
+                     
+                  </div>
+              </div>
+              <div class="card-back bg-white">
+                  <div class="card-body">
+                      <h5 class="card-title">APJ Abdul Kalam has himself written 30+ books</h3>
+                      <p class="card-text">
+                        "He always say , BOOKS ARE MY FAVOURITE FRIENDS, AND I CONSIDER MY HOME LIBRARY,
+                         WITH MANY THOUSANDS of BOOKS, TO BE MY GREATEST WEALTH. EVERY NEW BOOK,
+                         BASED ON SOME NEW IDEA INSPIRES ME AND GIVES ME A NEW THOUGHT TO PONDER."
+
+                       </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<div class="container-fluid" id="tablediv" >
+  <h1 style="font-size: 40px;color: ivory;">Books in Our Store</h1><br>
+  <table class="table table-hover " >
+    <thead class="thead" >
+      <tr>
+        <th colspan="2">List of Books</th>
+        <td id="headdata" align="right"><i class="fa fa-plus-square" aria-hidden="true" onclick="addBook()" data-toggle="modal" data-target="#myModal" onclick="addBook()"></i>
+          &nbsp&nbsp&nbsp
+          </td>
+        </tr>
+        
+    </thead>
+    <tbody id="BookBody" style="font-size: 20px;">
+      
+    </tbody>
+  </table>
+  </div>
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 id="modalHeading" class="modal-title">Book Details!!</h4>
+        </div>
+        <div class="modal-body">
+        <form>
+  <label for="Mname">Book name:</label><br>
+  <input type="text" id="Mname" name="name" value=""><br>
+  <label for="Mauthor">Author:</label><br>
+  <input type="text" id="Mauthor" name="author" value=""><br>
+   <label for="Mcost">Cost:</label><br>
+  <input type="text" id="Mcost" name="cost" value=""><br>
+   <label for="Missued">Issued:</label><br>
+  <input type="text" id="Missued" name="issued" value=""><br>
+  <label for="Mavailable">Available:</label><br>
+  <input type="text" id="Mavailable" name="available" value=""><br><br>
+  <input type="button"  id="updateData" value="OK">
+</form> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" id="refresh">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  
+  <footer class="footer-distributed">
+  
+        <div class="footer-left">
+  
+          <h3>Bhanuja<span>Aggarwal</span></h3>
+  
+          
+          <p class="footer-company-name">BL Library © 2015</p>
+        </div>
+  
+        <div class="footer-center">
+  
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>shop No - 25 , Sarojini Nagar</span> West Delhi,India</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>9915988804</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">BLLibrary@cygrp.com</a></p>
+          </div>
+  
+        </div>
+  
+        <div class="footer-right">
+  
+          <p class="footer-company-about">
+            <span>About the company</span>
+            A small startup to encourage people to learn and read more.
+          </p>
+  
+          <div class="footer-icons">
+  
+            <a href="https://www.instagram.com/bhanuja_aggarwal_28/"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/bhanuja-aggarwal"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.github.com/Bhanuja-Aggarwal28"><i class="fa fa-github"></i></a>
+  
+          </div>
+  
+        </div>
+  
+      </footer>
+
+
+<script src="./script.js"></script>
+</body>
+</html>

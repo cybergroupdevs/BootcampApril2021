@@ -1,0 +1,14 @@
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\bin\Debug\netcoreapp2.1\assignment1.deps.json
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\bin\Debug\netcoreapp2.1\assignment1.runtimeconfig.json
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\bin\Debug\netcoreapp2.1\assignment1.runtimeconfig.dev.json
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\bin\Debug\netcoreapp2.1\assignment1.dll
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\bin\Debug\netcoreapp2.1\assignment1.pdb
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\obj\Debug\netcoreapp2.1\assignment1.csprojAssemblyReference.cache
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\obj\Debug\netcoreapp2.1\assignment1.csproj.CoreCompileInputs.cache
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\obj\Debug\netcoreapp2.1\assignment1.RazorAssemblyInfo.cache
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\obj\Debug\netcoreapp2.1\assignment1.RazorAssemblyInfo.cs
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\obj\Debug\netcoreapp2.1\assignment1.AssemblyInfoInputs.cache
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\obj\Debug\netcoreapp2.1\assignment1.AssemblyInfo.cs
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\obj\Debug\netcoreapp2.1\assignment1.RazorTargetAssemblyInfo.cache
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\obj\Debug\netcoreapp2.1\assignment1.dll
+C:\Users\bhanuja.aggarwal\source\repos\assignment1\assignment1\obj\Debug\netcoreapp2.1\assignment1.pdb
