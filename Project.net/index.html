@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+
+</head>
+<body >
+ 
+
+
+
+
+  <div class="w3-container">
+    <div  class="table-title">
+      <div class="row">
+          <div class="col-sm-8"style="text-align:center"><h2>Employee <b>Details</b></h2></div>
+          <div class="col-sm-4 dd" >
+              <button type="button" class="btn btn-info add-new butt"><i class="fa fa-plus"></i><a class="ad" href="#edu">Add New</a></button>
+          </div>
+      </div>
+      <center>
+  
+       <table class="table table-stripped"style="margin: 20px; width:80%;padding: 10px;">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th >First Name</th> 
+                    <th>Last Name</th>
+                    <th>Department Number</th> 
+                    <th>Department Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="users"> 
+            
+
+            </tbody>
+
+         </table>
+        </center>
+        </div>
+
+  </div>
+       
+         
+  
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Update new User!!</h4>
+        </div>
+        <div class="modal-body">
+
+  <label for="fname">First name:</label><br>
+  <input type="text" id="Modalfname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="Modallname" name="lname" value=""><br>
+   <label for="dptnumber">Department Number:</label><br>
+  <input type="text" id="Modaldptnumber" name="dptnumber" value=""><br>
+   <label for="dptname">Department Name:</label><br>
+  <input type="text" id="Modaldptname" name="dptname" value=""><br><br>
+  <input type="submit" value="Update"id="Updatebut">
+ </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<div style="text-align: center;">
+  <div id="edu">
+    <h1 >ADD USERS!</h1>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value=""><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value=""><br>
+<label for="fname">Department Number:</label><br>
+<input type="text" id="dptnumber" name="dptnumber" value=""><br>
+<label for="fname">Department Name:</label><br>
+<input type="text" id="dptname" name="dptname" value=""><br><br>
+<button class="btn btn-warning"onclick="addUser()"><i class="material-icons">&#xE03B;</i></button>
+</div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
