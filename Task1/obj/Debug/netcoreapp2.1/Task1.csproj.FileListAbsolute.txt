@@ -1,0 +1,14 @@
+C:\Users\shreya.sharma\source\repos\Task1\Task1\bin\Debug\netcoreapp2.1\Task1.deps.json
+C:\Users\shreya.sharma\source\repos\Task1\Task1\bin\Debug\netcoreapp2.1\Task1.runtimeconfig.json
+C:\Users\shreya.sharma\source\repos\Task1\Task1\bin\Debug\netcoreapp2.1\Task1.runtimeconfig.dev.json
+C:\Users\shreya.sharma\source\repos\Task1\Task1\bin\Debug\netcoreapp2.1\Task1.dll
+C:\Users\shreya.sharma\source\repos\Task1\Task1\bin\Debug\netcoreapp2.1\Task1.pdb
+C:\Users\shreya.sharma\source\repos\Task1\Task1\obj\Debug\netcoreapp2.1\Task1.csprojAssemblyReference.cache
+C:\Users\shreya.sharma\source\repos\Task1\Task1\obj\Debug\netcoreapp2.1\Task1.csproj.CoreCompileInputs.cache
+C:\Users\shreya.sharma\source\repos\Task1\Task1\obj\Debug\netcoreapp2.1\Task1.RazorAssemblyInfo.cache
+C:\Users\shreya.sharma\source\repos\Task1\Task1\obj\Debug\netcoreapp2.1\Task1.RazorAssemblyInfo.cs
+C:\Users\shreya.sharma\source\repos\Task1\Task1\obj\Debug\netcoreapp2.1\Task1.AssemblyInfoInputs.cache
+C:\Users\shreya.sharma\source\repos\Task1\Task1\obj\Debug\netcoreapp2.1\Task1.AssemblyInfo.cs
+C:\Users\shreya.sharma\source\repos\Task1\Task1\obj\Debug\netcoreapp2.1\Task1.RazorTargetAssemblyInfo.cache
+C:\Users\shreya.sharma\source\repos\Task1\Task1\obj\Debug\netcoreapp2.1\Task1.dll
+C:\Users\shreya.sharma\source\repos\Task1\Task1\obj\Debug\netcoreapp2.1\Task1.pdb
